@@ -1,0 +1,19 @@
+import java.awt.Button;
+import java.awt.TextArea;
+import java.awt.TextField;
+
+import javax.swing.JFrame;
+
+public class Interface {
+
+	private TextField mStat, m1, m2, m3;
+	TextArea mRes;
+	private Button b1, b2, b3, b4;
+	
+	public static void main(String[] args){    
+
+		Fenetre f = new Fenetre();
+		
+		
+	}       
+}

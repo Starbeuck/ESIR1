@@ -1,0 +1,30 @@
+import java.awt.Button;
+import java.awt.TextArea;
+import java.awt.TextField;
+import java.sql.Connection;
+import java.sql.Statement;
+
+import javax.swing.JFrame;
+
+public class Interface {
+
+	private TextField mStat, m1, m2, m3;
+	TextArea mRes;
+	private Button b1, b2, b3, b4;
+
+	//connexion au serveur
+	//variable pour le serveur et la bdd
+	//connexion au serveur
+	final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+	final String DB_URL = "jdbc:mysql://mysql.istic.univ-rennes1.fr:3306/base_15001727";
+
+	//  Database credentials
+	final String USER = "user_15001727";
+	final String PASS = "4GQWXxj!";
+
+	Connection conn = null;
+	Statement stmt = null;
+
+	
+	   
+}

@@ -1,0 +1,16 @@
+cas 10 000 000 pas 10 000 000 final 300 000 000  cas idéal 
+linéaire 
+a=0.000 000 31
+
+cas pire deb 10 000 pas 1 000 fin 50 000 
+quadra 
+a=0.000 000 21
+
+cas aléatoire deb:10 000 000 pas=10 000 000 fin 300 000 000
+quadratique
+a=0. 000 000 11
+
+
+fusion 
+cas ideal 
+a=0.00000032

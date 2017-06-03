@@ -1,0 +1,1277 @@
+INFO  2017-04-28 16:40:33,084 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_131
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.12.0.v20170306-1705
+  Operating System: Linux (4.10.11-200.fc25.x86_64)
+  Hardware Architecture: amd64
+INFO  2017-04-28 16:40:33,112 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2017-04-28 16:40:33,147 (XMPPAccountStore.java:117) loading accounts from file: /home/skeroullas/.saros/config.dat
+DEBUG 2017-04-28 16:40:33,206 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2017-04-28 16:40:33,366 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2017-04-28 16:40:33,383 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2017-04-28 16:40:33,400 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2017-04-28 16:40:33,435 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2017-04-28 16:40:33,481 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2017-04-28 16:40:35,355 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2017-04-28 16:40:37,747 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2017-04-28 16:40:37,786 (DocumentRecord.java:93) Added Node: attr(149339043778499997) name=svg
+DEBUG 2017-04-28 16:40:37,903 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2017-04-28 16:40:37,908 (XMPPConnectionService.java:459) using autodetected addresses: [10.42.0.118, fe80:0:0:0:30da:32fa:66ec:b94d%wlp2s0]
+DEBUG 2017-04-28 16:40:37,916 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2017-04-28 16:40:38,845 (XMPPConnectionService.java:398) pika@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2017-04-28 16:40:38,846 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2017-04-28 16:40:38,848 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2017-04-28 16:40:39,599 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: blop4@saros-con.imp.fu-berlin.de/Saros
+INFO  2017-04-28 16:40:47,816 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2017-04-28 16:40:47,837 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+WARN  2017-04-28 16:40:47,957 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /10.42.0.118:0
+INFO  2017-04-28 16:40:48,107 (StatisticManager.java:163) Session count: 5
+INFO  2017-04-28 16:40:48,108 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2017-04-28 16:40:48,110 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2017-04-28 16:40:48,116 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-04-28 16:40:48,117 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-04-28 16:40:48,190 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2017-04-28 16:40:48,193 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2017-04-28 16:40:48,238 (MultiUserChat.java:310) Configuring room
+DEBUG 2017-04-28 16:40:48,271 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2017-04-28 16:40:48,271 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2017-04-28 16:40:48,272 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@2024821 - P/Code with ID 749131805 [completely shared:true]
+DEBUG 2017-04-28 16:40:48,331 (EditorManager.java:392) Fenetre.java
+DEBUG 2017-04-28 16:40:48,344 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2017-04-28 16:40:48,345 (SarosSessionManager.java:262) session started
+DEBUG 2017-04-28 16:40:48,352 (OutgoingSessionNegotiation.java:122) OSN [remote side: blop4@saros-con.imp.fu-berlin.de] : starting invitation
+DEBUG 2017-04-28 16:40:48,353 (OutgoingSessionNegotiation.java:223) OSN [remote side: blop4@saros-con.imp.fu-berlin.de] : checking Saros support
+DEBUG 2017-04-28 16:40:48,354 (OutgoingSessionNegotiation.java:235) OSN [remote side: blop4@saros-con.imp.fu-berlin.de] :  remote contact offers Saros support
+DEBUG 2017-04-28 16:40:48,355 (OutgoingSessionNegotiation.java:253) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2017-04-28 16:40:48,481 (OutgoingSessionNegotiation.java:284) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2017-04-28 16:40:48,484 (OutgoingSessionNegotiation.java:298) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2017-04-28 16:40:48,486 (OutgoingSessionNegotiation.java:314) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2017-04-28 16:40:48,900 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_1203580830 Password -1028666696
+DEBUG 2017-04-28 16:40:48,911 (OutgoingSessionNegotiation.java:325) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : invitation acknowledged
+DEBUG 2017-04-28 16:40:48,912 (OutgoingSessionNegotiation.java:334) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : waiting for peer to accept the invitation
+DEBUG 2017-04-28 16:40:49,980 (MultiUserChat.java:133) processPacket called
+DEBUG 2017-04-28 16:40:49,981 (MultiUserChatStateManager.java:101) Incoming Message from saros_1203580830@conference.saros-con.imp.fu-berlin.de/pika@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-04-28 16:40:49,983 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-04-28 16:40:50,121 (OutgoingSessionNegotiation.java:345) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2017-04-28 16:40:50,121 (OutgoingSessionNegotiation.java:355) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : waiting for client's session parameters
+DEBUG 2017-04-28 16:40:50,169 (OutgoingSessionNegotiation.java:375) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : received client's session parameters
+DEBUG 2017-04-28 16:40:50,312 (WhiteboardManager.java:163) Detected  Whiteboard at blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:40:50,313 (OutgoingSessionNegotiation.java:427) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : sending updated session negotiation data
+DEBUG 2017-04-28 16:40:50,314 (OutgoingSessionNegotiation.java:434) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : sent updated session negotiation data
+DEBUG 2017-04-28 16:40:50,315 (OutgoingSessionNegotiation.java:444) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : waiting for remote side to start its Saros session
+DEBUG 2017-04-28 16:40:52,062 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@2da1e2b3]
+DEBUG 2017-04-28 16:40:52,062 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from blop4@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[10.42.0.118, fe80:0:0:0:30da:32fa:66ec:b94d%wlp2s0]]
+DEBUG 2017-04-28 16:40:52,063 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2017-04-28 16:40:57,080 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2017-04-28 16:41:03,533 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 2017-04-28 16:41:03,564 (ByteStreamTransport.java:105) could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+DEBUG 2017-04-28 16:41:27,296 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@79629bab]
+DEBUG 2017-04-28 16:41:27,308 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] blop4@saros-con.imp.fu-berlin.de/Saros, inc=true, pool id=saros-main-session:in:blop4@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-04-28 16:41:27,310 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] blop4@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2017-04-28 16:41:27,654 (MultiUserChat.java:133) processPacket called
+DEBUG 2017-04-28 16:41:27,656 (MultiUserChatStateManager.java:101) Incoming Message from saros_1203580830@conference.saros-con.imp.fu-berlin.de/blop4@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-04-28 16:41:27,658 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-04-28 16:41:28,404 (OutgoingSessionNegotiation.java:455) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : remote side started its Saros session
+DEBUG 2017-04-28 16:41:28,405 (OutgoingSessionNegotiation.java:472) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : synchronizing user list
+DEBUG 2017-04-28 16:41:28,409 (UserInformationHandler.java:152) synchronizing user list (A)[blop4@saros-con.imp.fu-berlin.de/Saros, pika@saros-con.imp.fu-berlin.de/Saros], (R) [] with user(s) [blop4@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-04-28 16:41:31,518 (UserInformationHandler.java:204) received user list confirmation from: blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:41:31,519 (UserInformationHandler.java:211) synchronized user list with user(s) [blop4@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-04-28 16:41:31,525 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2017-04-28 16:41:31,528 (ChangeColorManager.java:379) color conflict resolve result = RESOLVED
+DEBUG 2017-04-28 16:41:31,529 (ChangeColorManager.java:383) new color assignment: {pika@saros-con.imp.fu-berlin.de/Saros=1, blop4@saros-con.imp.fu-berlin.de/Saros=0}
+DEBUG 2017-04-28 16:41:31,530 (ChangeColorManager.java:634) updating color id set: [blop4@saros-con.imp.fu-berlin.de, pika@saros-con.imp.fu-berlin.de]
+DEBUG 2017-04-28 16:41:31,535 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+INFO  2017-04-28 16:41:31,537 (ParticipantCollector.java:67) blop4@saros-con.imp.fu-berlin.de/Saros joined - session now contains 2 users
+INFO  2017-04-28 16:41:31,544 (SarosSession.java:456) user blop4@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 2017-04-28 16:41:31,545 (OutgoingSessionNegotiation.java:482) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : added blop4@saros-con.imp.fu-berlin.de/Saros to the current session, colorID: 1
+DEBUG 2017-04-28 16:41:32,427 (OutgoingSessionNegotiation.java:501) OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : session negotiation finished
+DEBUG 2017-04-28 16:41:32,430 (WhiteboardManager.java:89) Preparing Whiteboard for sending an invitation
+DEBUG 2017-04-28 16:41:32,437 (ColorUtils.java:21) set foregroundcolor RGB {191, 187, 130}
+DEBUG 2017-04-28 16:41:32,445 (SXEController.java:120) SXE (1499): initialize session at inviter side
+DEBUG 2017-04-28 16:41:32,449 (SXEOutgoingSynchronizationProcess.java:51) SXE(1499)  send state-offer to blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:41:32,451 (SarosSXETransmitter.java:151) SXE send state-offer to blop4@saros-con.imp.fu-berlin.de/Saros waiting for [accept-state, refuse-state]
+INFO  2017-04-28 16:41:32,496 (DataTransferManager.java:409) establishing connection to blop4@saros-con.imp.fu-berlin.de/Saros from pika@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2017-04-28 16:41:32,497 (ByteStreamTransport.java:45) establishing bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:41:32,497 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to blop4@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[10.42.0.118, fe80:0:0:0:30da:32fa:66ec:b94d%wlp2s0]]...
+DEBUG 2017-04-28 16:41:33,604 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:41:34,059 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@2da1e2b3]
+DEBUG 2017-04-28 16:41:34,059 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from blop4@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[10.42.0.118, fe80:0:0:0:30da:32fa:66ec:b94d%wlp2s0]]
+ERROR 2017-04-28 16:41:39,064 (ByteStreamTransport.java:105) could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+WARN  2017-04-28 16:41:43,142 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to blop4@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2017-04-28 16:41:43,143 (Socks5Transport.java:567) [SOCKS5Transport] waiting for blop4@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+WARN  2017-04-28 16:42:13,144 (DataTransferManager.java:415) failed to connect to blop4@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+INFO  2017-04-28 16:42:13,146 (DataTransferManager.java:409) establishing connection to blop4@saros-con.imp.fu-berlin.de/Saros from pika@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2017-04-28 16:42:13,146 (ByteStreamTransport.java:45) establishing bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:13,386 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=default] blop4@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=default:out:blop4@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-04-28 16:42:13,387 (BinaryChannelConnection.java:103) [mode=IBB, id=default] blop4@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2017-04-28 16:42:14,359 (SXEOutgoingSynchronizationProcess.java:70) SXE(1499) blop4@saros-con.imp.fu-berlin.de/Saros accepted state-offer
+DEBUG 2017-04-28 16:42:14,366 (SXEOutgoingSynchronizationProcess.java:89) SXE(1499) Sending state to blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:14,366 (SXEOutgoingSynchronizationProcess.java:91) Send message: de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEMessage@74309d17: from: null, to: blop4@saros-con.imp.fu-berlin.de/Saros, msgId: 1messageTyp: statemessage: [new type=element ns=http://www.w3.org/2000/svg version=0 rid=149339043778499997 name=svg visible=true, ]
+DEBUG 2017-04-28 16:42:14,370 (CancelableProcess.java:353) process OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+INFO  2017-04-28 16:42:14,384 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2017-04-28 16:42:14,694 (OutgoingProjectNegotiation.java:181) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : sending file list
+DEBUG 2017-04-28 16:42:15,453 (OutgoingProjectNegotiation.java:214) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : waiting for remote file list
+DEBUG 2017-04-28 16:42:29,227 (OutgoingProjectNegotiation.java:232) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : remote file list has been received
+DEBUG 2017-04-28 16:42:29,228 (OutgoingProjectNegotiation.java:270) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : stopping users [blop4@saros-con.imp.fu-berlin.de/Saros, pika@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-04-28 16:42:29,240 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:29,241 (EditorManager.java:1697) locking all editors
+DEBUG 2017-04-28 16:42:29,243 (StopManager.java:239) added StartHandle (pika@saros-con.imp.fu-berlin.de/Saros, 1642292301620247193258999156, startable) to resulting handles.
+DEBUG 2017-04-28 16:42:30,210 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:30,213 (StopManager.java:390) Acknowledgment arrived blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:30,214 (StopManager.java:239) added StartHandle (blop4@saros-con.imp.fu-berlin.de/Saros, 164229230-2501112975848576773, startable) to resulting handles.
+INFO  2017-04-28 16:42:31,449 (SarosSession.java:462) user blop4@saros-con.imp.fu-berlin.de/Saros started queuing projects and can receive IResourceActivities
+DEBUG 2017-04-28 16:42:31,454 (OutgoingProjectNegotiation.java:353) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : creating archive
+DEBUG 2017-04-28 16:42:31,493 (CreateArchiveTask.java:140) created archive /tmp/saros_18897844790223982565848882532939223642.zip I/O: [444,1 kB in < 1 s at 13,1 MB/s]
+DEBUG 2017-04-28 16:42:31,494 (OutgoingProjectNegotiation.java:288) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : restarting user pika@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:31,494 (StartHandle.java:58) Called start on pika@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:31,494 (StopManager.java:430) StartHandle (pika@saros-con.imp.fu-berlin.de/Saros, 1642292301620247193258999156, not startable) couldn't be removed because it doesn't exist any more.
+DEBUG 2017-04-28 16:42:31,495 (EditorManager.java:1697) unlocking all editors
+DEBUG 2017-04-28 16:42:31,495 (OutgoingProjectNegotiation.java:288) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : restarting user blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:31,495 (StartHandle.java:58) Called start on blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:31,497 (OutgoingProjectNegotiation.java:390) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : sending archive
+DEBUG 2017-04-28 16:42:31,498 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:33,370 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:38,342 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:48,343 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:42:58,345 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:43:10,282 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:43:18,346 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:43:28,348 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:43:38,350 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:43:48,350 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:43:58,352 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:44:08,353 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:44:18,353 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:44:28,355 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:44:38,358 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:44:48,358 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:02,799 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:09,479 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:18,362 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:28,365 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:38,856 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:48,367 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:45:58,369 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:46:08,370 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:46:18,373 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:46:28,373 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:46:38,374 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:46:48,375 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:46:58,380 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:47:08,380 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:47:18,383 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:47:28,384 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:47:38,385 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:47:48,386 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:47:58,387 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:08,389 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:19,750 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:25,911 (OutgoingProjectNegotiation.java:407) OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] : archive send
+INFO  2017-04-28 16:48:25,911 (SarosSession.java:482) user blop4@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+DEBUG 2017-04-28 16:48:25,913 (ActivitySequencer.java:496) send (004) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:26,167 (CancelableProcess.java:353) process OPN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2017-04-28 16:48:26,628 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:28,390 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:38,390 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:48,391 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:48:58,392 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:07,329 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:07,802 (ActivitySequencer.java:546) rcvd (003) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:08,392 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:08,553 (ActivitySequencer.java:546) rcvd (003) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:18,393 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:24,480 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:24,824 (ActivitySequencer.java:546) rcvd (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:28,394 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:38,394 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:48,395 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:49:58,395 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:07,427 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:07,672 (EditorListener.java:236) Viewport changed: 46+32
+DEBUG 2017-04-28 16:50:07,674 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:08,397 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:18,397 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:28,398 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:30,955 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:37,807 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:38,348 (ActivitySequencer.java:546) rcvd (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:38,398 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:48,399 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:56,907 (EditorListener.java:236) Viewport changed: 42+32
+DEBUG 2017-04-28 16:50:56,908 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:56,909 (EditorListener.java:236) Viewport changed: 38+32
+DEBUG 2017-04-28 16:50:56,923 (EditorListener.java:236) Viewport changed: 33+33
+DEBUG 2017-04-28 16:50:56,924 (EditorListener.java:236) Viewport changed: 29+33
+DEBUG 2017-04-28 16:50:56,956 (EditorListener.java:236) Viewport changed: 25+32
+DEBUG 2017-04-28 16:50:56,957 (EditorListener.java:236) Viewport changed: 0+56
+DEBUG 2017-04-28 16:50:57,061 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:57,827 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 16:50:57,828 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:57,858 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 16:50:57,860 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 16:50:57,861 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 16:50:57,862 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 16:50:57,888 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 16:50:57,891 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 16:50:57,892 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 16:50:58,114 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:50:58,783 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 16:50:58,813 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 16:50:58,814 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 16:50:58,815 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 16:50:58,816 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 16:50:58,845 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 16:50:58,846 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 16:50:58,847 (EditorListener.java:236) Viewport changed: 0+56
+DEBUG 2017-04-28 16:50:58,933 (ActivitySequencer.java:496) send (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:51:08,400 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:51:18,401 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:51:28,402 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:51:38,402 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:51:48,403 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:51:58,404 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:52:08,404 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:52:18,405 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:52:28,405 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:52:38,411 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:52:48,411 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:52:58,412 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:53:08,413 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:53:18,414 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:53:28,414 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:53:38,415 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:53:48,416 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:53:58,417 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:54:08,418 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:54:18,418 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:54:28,419 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:54:38,419 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:54:48,420 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:54:58,421 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:55:08,422 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:55:18,422 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:55:28,423 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:55:38,424 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:55:48,427 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:55:58,428 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:56:08,428 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:56:18,429 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:56:28,430 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:56:38,430 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:56:48,431 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:56:58,431 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:57:08,432 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:57:18,433 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:57:28,433 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:57:38,434 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:57:48,434 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:57:58,435 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:58:08,436 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:58:18,436 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:58:28,437 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:58:38,438 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:58:48,438 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:58:58,439 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:59:08,440 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:59:18,441 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:59:28,441 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:59:38,444 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:59:48,444 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 16:59:58,445 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:00:08,446 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:00:18,446 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:00:28,447 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:00:38,448 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:00:48,449 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:00:58,449 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:01:08,450 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:01:18,451 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:01:28,451 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:01:38,452 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:01:48,452 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:01:58,453 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:02:08,454 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:02:18,454 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:02:28,455 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:02:38,455 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:02:48,456 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:02:58,462 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:03:08,462 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:03:18,465 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:03:28,469 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:03:38,469 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:03:48,471 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:03:58,472 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:04:08,473 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:04:18,473 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:04:28,474 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:04:38,475 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:04:48,475 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:04:58,476 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:05:08,476 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:05:18,477 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:05:28,478 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:05:38,478 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:05:48,479 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:05:58,479 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:06:08,480 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:06:18,481 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:06:28,481 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:06:38,482 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:06:48,482 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:06:58,483 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:07:08,483 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:07:18,484 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:07:28,485 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:07:38,485 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:07:48,486 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:07:58,486 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:08:08,487 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:08:18,488 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:08:28,489 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:08:38,489 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:08:48,489 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:08:58,490 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:09:08,491 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:09:18,491 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:09:28,492 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:09:38,492 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:09:48,493 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:09:58,493 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:10:08,494 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:10:18,494 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:10:28,495 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:10:38,496 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:10:48,496 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:10:58,497 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:11:08,497 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:11:18,498 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:11:28,498 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:11:38,499 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:11:48,500 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:11:58,500 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:12:08,501 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:12:18,502 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:12:28,502 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:12:38,503 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:12:48,503 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:12:58,504 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:13:08,504 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:13:18,505 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:13:28,505 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:13:38,506 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:13:48,507 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:13:58,507 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:14:08,508 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:14:18,508 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:14:28,508 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:14:38,509 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:14:48,510 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:14:58,510 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:15:08,511 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:15:18,511 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:15:28,512 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:15:38,513 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:15:48,513 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:15:58,515 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:16:08,516 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:16:18,516 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:16:28,518 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:16:38,518 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:16:48,519 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:16:58,519 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:17:08,520 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:17:18,520 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:17:28,521 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:17:38,522 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:17:48,523 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:17:58,525 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:18:08,525 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:18:18,526 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:18:28,528 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:18:38,528 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:18:48,529 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:18:58,531 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:19:08,531 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:19:18,532 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:19:28,532 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:19:38,533 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:19:48,533 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:19:58,534 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:20:08,534 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:20:18,535 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:20:28,535 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:20:38,536 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:20:48,539 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:20:58,539 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:21:08,540 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:21:18,542 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:21:28,543 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:21:38,543 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:21:48,544 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:21:58,544 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:22:08,545 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:22:18,545 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:22:28,546 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:22:38,547 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:22:48,547 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:22:58,548 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:23:08,548 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:23:18,549 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:23:28,549 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:23:38,551 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:23:48,552 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:23:58,553 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:24:08,553 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:24:18,554 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:24:28,554 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:24:38,555 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:24:48,555 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:24:58,556 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:08,556 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:18,557 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:19,761 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:19,925 (ActivitySequencer.java:496) send (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:20,697 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:21,082 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:21,697 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:22,338 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:22,999 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:23,614 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:28,562 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:38,563 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:48,563 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:25:58,564 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:26:08,565 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:26:18,565 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:26:28,566 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:26:38,566 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:26:48,567 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:26:58,567 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:27:08,568 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:27:18,568 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:27:28,569 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:27:38,569 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:27:48,570 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:27:58,570 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:28:08,571 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:28:18,572 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:28:28,572 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:28:38,573 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:28:48,573 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:28:58,574 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:29:08,574 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:29:18,575 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:29:28,575 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:29:38,576 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:29:48,577 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:29:58,577 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:30:08,578 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:30:18,578 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:30:28,579 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:30:38,579 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:30:48,580 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:30:58,580 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:31:08,581 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:31:18,581 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:31:28,582 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:31:38,582 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:31:48,583 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:31:58,583 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:32:08,584 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:32:18,584 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:32:28,585 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:32:38,585 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:32:48,585 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:32:58,586 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:33:08,587 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:33:18,587 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:33:28,587 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:33:38,588 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:33:48,588 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:33:58,589 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:34:08,589 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:34:18,590 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:34:28,591 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:34:38,591 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:34:48,592 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:34:58,592 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:35:08,593 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:35:18,594 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:35:28,594 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:35:38,595 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:35:48,596 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:35:58,596 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:08,597 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:18,597 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:28,598 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:38,598 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:48,599 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:57,206 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:57,382 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:57,868 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:58,490 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:59,062 (ActivitySequencer.java:496) send (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:36:59,701 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:37:08,600 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:37:18,601 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:37:28,601 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:37:38,602 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:37:48,602 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:37:58,603 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:08,604 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:18,604 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:23,450 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:23,614 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:24,100 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:24,659 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:25,329 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:26,805 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:27,054 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:27,511 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:28,125 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:28,680 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:33,163 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:33,415 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:34,375 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:36,346 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:38,618 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:39,178 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 17:38:39,179 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:39,228 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 17:38:39,271 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 17:38:39,300 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:38:39,301 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 17:38:39,303 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:38:39,322 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:38:39,323 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 17:38:39,333 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:39,342 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:38:39,343 (EditorListener.java:236) Viewport changed: 65+33
+DEBUG 2017-04-28 17:38:39,371 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:38:39,429 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:38:39,827 (EditorListener.java:236) Viewport changed: 78+32
+DEBUG 2017-04-28 17:38:39,829 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:38:39,831 (EditorListener.java:236) Viewport changed: 86+33
+DEBUG 2017-04-28 17:38:39,855 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:38:39,873 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:39,885 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:38:40,223 (EditorListener.java:236) Viewport changed: 99+32
+DEBUG 2017-04-28 17:38:40,226 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:38:40,242 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 17:38:40,244 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:38:40,247 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:38:40,262 (EditorListener.java:236) Viewport changed: 120+32
+DEBUG 2017-04-28 17:38:40,263 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:38:40,265 (EditorListener.java:236) Viewport changed: 128+33
+DEBUG 2017-04-28 17:38:40,290 (EditorListener.java:236) Viewport changed: 133+32
+DEBUG 2017-04-28 17:38:40,291 (EditorListener.java:236) Viewport changed: 137+32
+DEBUG 2017-04-28 17:38:40,320 (EditorListener.java:236) Viewport changed: 141+32
+DEBUG 2017-04-28 17:38:40,321 (EditorListener.java:236) Viewport changed: 145+33
+DEBUG 2017-04-28 17:38:40,339 (EditorListener.java:236) Viewport changed: 149+33
+DEBUG 2017-04-28 17:38:40,495 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:41,067 (EditorListener.java:236) Viewport changed: 154+32
+DEBUG 2017-04-28 17:38:41,101 (EditorListener.java:236) Viewport changed: 158+32
+DEBUG 2017-04-28 17:38:41,120 (EditorListener.java:236) Viewport changed: 162+32
+DEBUG 2017-04-28 17:38:41,126 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:41,144 (EditorListener.java:236) Viewport changed: 166+33
+DEBUG 2017-04-28 17:38:41,759 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:41,869 (EditorListener.java:236) Viewport changed: 162+32
+DEBUG 2017-04-28 17:38:41,870 (EditorListener.java:236) Viewport changed: 158+32
+DEBUG 2017-04-28 17:38:41,870 (EditorListener.java:236) Viewport changed: 154+32
+DEBUG 2017-04-28 17:38:41,891 (EditorListener.java:236) Viewport changed: 149+33
+DEBUG 2017-04-28 17:38:41,893 (EditorListener.java:236) Viewport changed: 145+33
+DEBUG 2017-04-28 17:38:41,895 (EditorListener.java:236) Viewport changed: 141+32
+DEBUG 2017-04-28 17:38:41,910 (EditorListener.java:236) Viewport changed: 137+32
+DEBUG 2017-04-28 17:38:41,911 (EditorListener.java:236) Viewport changed: 133+32
+DEBUG 2017-04-28 17:38:42,317 (EditorListener.java:236) Viewport changed: 128+33
+DEBUG 2017-04-28 17:38:42,318 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:38:42,319 (EditorListener.java:236) Viewport changed: 120+32
+DEBUG 2017-04-28 17:38:42,337 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:38:42,339 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:38:42,367 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 17:38:42,386 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:38:42,394 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:43,665 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 17:38:43,666 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:43,749 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:38:43,823 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:48,619 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:50,171 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 17:38:50,172 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:50,207 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:38:50,208 (EditorListener.java:236) Viewport changed: 99+32
+DEBUG 2017-04-28 17:38:50,209 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:38:50,238 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:38:50,239 (EditorListener.java:236) Viewport changed: 86+33
+DEBUG 2017-04-28 17:38:50,240 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:38:50,241 (EditorListener.java:236) Viewport changed: 78+32
+DEBUG 2017-04-28 17:38:50,273 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:38:50,276 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:38:50,279 (EditorListener.java:236) Viewport changed: 65+33
+DEBUG 2017-04-28 17:38:50,281 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:38:50,282 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 17:38:50,283 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:38:50,327 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:50,649 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:38:50,650 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 17:38:50,651 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:38:50,651 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 17:38:50,652 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 17:38:50,682 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 17:38:50,685 (EditorListener.java:236) Viewport changed: 0+56
+DEBUG 2017-04-28 17:38:50,829 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:53,090 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 17:38:53,091 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:53,094 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 17:38:53,122 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 17:38:53,123 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:38:53,124 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 17:38:53,125 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:38:53,156 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:38:53,157 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 17:38:53,187 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:38:53,224 (EditorListener.java:236) Viewport changed: 65+33
+DEBUG 2017-04-28 17:38:53,253 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:53,613 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:38:53,615 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:38:53,617 (EditorListener.java:236) Viewport changed: 78+32
+DEBUG 2017-04-28 17:38:53,618 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:38:53,655 (EditorListener.java:236) Viewport changed: 86+33
+DEBUG 2017-04-28 17:38:53,657 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:38:53,692 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:38:53,734 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:54,244 (EditorListener.java:236) Viewport changed: 99+32
+DEBUG 2017-04-28 17:38:54,270 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:38:54,271 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 17:38:54,272 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:38:54,304 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:38:54,307 (EditorListener.java:236) Viewport changed: 120+32
+DEBUG 2017-04-28 17:38:54,319 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:38:54,349 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:54,352 (EditorListener.java:236) Viewport changed: 128+33
+DEBUG 2017-04-28 17:38:54,443 (EditorListener.java:236) Viewport changed: 133+32
+DEBUG 2017-04-28 17:38:54,969 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:55,252 (EditorListener.java:236) Viewport changed: 137+32
+DEBUG 2017-04-28 17:38:55,254 (EditorListener.java:236) Viewport changed: 141+32
+DEBUG 2017-04-28 17:38:55,282 (EditorListener.java:236) Viewport changed: 145+33
+DEBUG 2017-04-28 17:38:55,284 (EditorListener.java:236) Viewport changed: 149+33
+DEBUG 2017-04-28 17:38:55,285 (EditorListener.java:236) Viewport changed: 154+32
+DEBUG 2017-04-28 17:38:55,312 (EditorListener.java:236) Viewport changed: 158+32
+DEBUG 2017-04-28 17:38:55,359 (EditorListener.java:236) Viewport changed: 162+32
+DEBUG 2017-04-28 17:38:55,650 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:56,343 (EditorListener.java:236) Viewport changed: 166+33
+DEBUG 2017-04-28 17:38:56,345 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:56,385 (EditorListener.java:236) Viewport changed: 170+33
+DEBUG 2017-04-28 17:38:56,387 (EditorListener.java:236) Viewport changed: 175+32
+DEBUG 2017-04-28 17:38:56,416 (EditorListener.java:236) Viewport changed: 179+32
+DEBUG 2017-04-28 17:38:56,435 (EditorListener.java:236) Viewport changed: 183+32
+DEBUG 2017-04-28 17:38:56,470 (EditorListener.java:236) Viewport changed: 187+33
+DEBUG 2017-04-28 17:38:56,966 (EditorListener.java:236) Viewport changed: 191+33
+DEBUG 2017-04-28 17:38:56,979 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:56,990 (EditorListener.java:236) Viewport changed: 196+32
+DEBUG 2017-04-28 17:38:57,020 (EditorListener.java:236) Viewport changed: 200+32
+DEBUG 2017-04-28 17:38:57,022 (EditorListener.java:236) Viewport changed: 204+32
+DEBUG 2017-04-28 17:38:57,034 (EditorListener.java:236) Viewport changed: 204+33
+DEBUG 2017-04-28 17:38:57,389 (EditorListener.java:236) Viewport changed: 200+32
+DEBUG 2017-04-28 17:38:57,391 (EditorListener.java:236) Viewport changed: 196+32
+DEBUG 2017-04-28 17:38:57,393 (EditorListener.java:236) Viewport changed: 192+32
+DEBUG 2017-04-28 17:38:57,393 (EditorListener.java:236) Viewport changed: 187+33
+DEBUG 2017-04-28 17:38:57,394 (EditorListener.java:236) Viewport changed: 183+33
+DEBUG 2017-04-28 17:38:57,395 (EditorListener.java:236) Viewport changed: 179+32
+DEBUG 2017-04-28 17:38:57,414 (EditorListener.java:236) Viewport changed: 175+32
+DEBUG 2017-04-28 17:38:57,416 (EditorListener.java:236) Viewport changed: 171+32
+DEBUG 2017-04-28 17:38:57,416 (EditorListener.java:236) Viewport changed: 166+33
+DEBUG 2017-04-28 17:38:57,417 (EditorListener.java:236) Viewport changed: 162+33
+DEBUG 2017-04-28 17:38:57,418 (EditorListener.java:236) Viewport changed: 158+32
+DEBUG 2017-04-28 17:38:57,418 (EditorListener.java:236) Viewport changed: 154+32
+DEBUG 2017-04-28 17:38:57,419 (EditorListener.java:236) Viewport changed: 150+32
+DEBUG 2017-04-28 17:38:57,420 (EditorListener.java:236) Viewport changed: 145+33
+DEBUG 2017-04-28 17:38:57,421 (EditorListener.java:236) Viewport changed: 141+33
+DEBUG 2017-04-28 17:38:57,447 (EditorListener.java:236) Viewport changed: 137+32
+DEBUG 2017-04-28 17:38:57,448 (EditorListener.java:236) Viewport changed: 133+32
+DEBUG 2017-04-28 17:38:57,450 (EditorListener.java:236) Viewport changed: 129+32
+DEBUG 2017-04-28 17:38:57,454 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:38:57,454 (EditorListener.java:236) Viewport changed: 120+33
+DEBUG 2017-04-28 17:38:57,455 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:38:57,458 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:38:57,459 (EditorListener.java:236) Viewport changed: 108+32
+DEBUG 2017-04-28 17:38:57,478 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:38:57,479 (EditorListener.java:236) Viewport changed: 99+33
+DEBUG 2017-04-28 17:38:57,480 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:38:57,481 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:38:57,482 (EditorListener.java:236) Viewport changed: 87+32
+DEBUG 2017-04-28 17:38:57,483 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:38:57,532 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:57,786 (EditorListener.java:236) Viewport changed: 78+33
+DEBUG 2017-04-28 17:38:57,789 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:38:57,791 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:38:57,793 (EditorListener.java:236) Viewport changed: 66+32
+DEBUG 2017-04-28 17:38:57,795 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:38:57,797 (EditorListener.java:236) Viewport changed: 57+33
+DEBUG 2017-04-28 17:38:57,833 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:38:57,835 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:38:57,836 (EditorListener.java:236) Viewport changed: 45+32
+DEBUG 2017-04-28 17:38:57,837 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:38:57,838 (EditorListener.java:236) Viewport changed: 36+33
+DEBUG 2017-04-28 17:38:57,839 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 17:38:57,840 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 17:38:57,843 (EditorListener.java:236) Viewport changed: 24+32
+DEBUG 2017-04-28 17:38:57,847 (EditorListener.java:236) Viewport changed: 0+56
+DEBUG 2017-04-28 17:38:58,122 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:38:58,854 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:07,435 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 17:39:07,436 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:07,441 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 17:39:07,485 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 17:39:07,486 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:39:07,487 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 17:39:07,491 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:39:07,493 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:39:07,494 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 17:39:07,495 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:39:07,511 (EditorListener.java:236) Viewport changed: 65+33
+DEBUG 2017-04-28 17:39:07,558 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:39:07,578 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:39:07,581 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:08,291 (EditorListener.java:236) Viewport changed: 78+32
+DEBUG 2017-04-28 17:39:08,292 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:08,292 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:39:08,293 (EditorListener.java:236) Viewport changed: 86+33
+DEBUG 2017-04-28 17:39:08,309 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:39:08,310 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:39:08,312 (EditorListener.java:236) Viewport changed: 99+32
+DEBUG 2017-04-28 17:39:08,341 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:39:08,342 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 17:39:08,359 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:39:08,392 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:39:08,393 (EditorListener.java:236) Viewport changed: 120+32
+DEBUG 2017-04-28 17:39:08,700 (ActivitySequencer.java:496) send (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:08,827 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:39:08,829 (EditorListener.java:236) Viewport changed: 128+33
+DEBUG 2017-04-28 17:39:08,831 (EditorListener.java:236) Viewport changed: 133+32
+DEBUG 2017-04-28 17:39:08,833 (EditorListener.java:236) Viewport changed: 137+32
+DEBUG 2017-04-28 17:39:08,855 (EditorListener.java:236) Viewport changed: 141+32
+DEBUG 2017-04-28 17:39:08,856 (EditorListener.java:236) Viewport changed: 145+33
+DEBUG 2017-04-28 17:39:08,857 (EditorListener.java:236) Viewport changed: 149+33
+DEBUG 2017-04-28 17:39:08,858 (EditorListener.java:236) Viewport changed: 154+32
+DEBUG 2017-04-28 17:39:08,885 (EditorListener.java:236) Viewport changed: 158+32
+DEBUG 2017-04-28 17:39:08,887 (EditorListener.java:236) Viewport changed: 162+32
+DEBUG 2017-04-28 17:39:08,889 (EditorListener.java:236) Viewport changed: 166+33
+DEBUG 2017-04-28 17:39:08,899 (EditorListener.java:236) Viewport changed: 170+33
+DEBUG 2017-04-28 17:39:08,900 (EditorListener.java:236) Viewport changed: 175+32
+DEBUG 2017-04-28 17:39:08,933 (EditorListener.java:236) Viewport changed: 179+32
+DEBUG 2017-04-28 17:39:08,934 (EditorListener.java:236) Viewport changed: 183+32
+DEBUG 2017-04-28 17:39:08,953 (EditorListener.java:236) Viewport changed: 187+33
+DEBUG 2017-04-28 17:39:09,301 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:09,845 (EditorListener.java:236) Viewport changed: 191+33
+DEBUG 2017-04-28 17:39:09,847 (EditorListener.java:236) Viewport changed: 196+32
+DEBUG 2017-04-28 17:39:09,849 (EditorListener.java:236) Viewport changed: 200+32
+DEBUG 2017-04-28 17:39:09,850 (EditorListener.java:236) Viewport changed: 204+32
+DEBUG 2017-04-28 17:39:09,883 (EditorListener.java:236) Viewport changed: 204+33
+DEBUG 2017-04-28 17:39:10,003 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:10,453 (EditorListener.java:236) Viewport changed: 200+32
+DEBUG 2017-04-28 17:39:10,455 (EditorListener.java:236) Viewport changed: 196+32
+DEBUG 2017-04-28 17:39:10,480 (EditorListener.java:236) Viewport changed: 192+32
+DEBUG 2017-04-28 17:39:10,481 (EditorListener.java:236) Viewport changed: 187+33
+DEBUG 2017-04-28 17:39:10,515 (EditorListener.java:236) Viewport changed: 183+33
+DEBUG 2017-04-28 17:39:10,517 (EditorListener.java:236) Viewport changed: 179+32
+DEBUG 2017-04-28 17:39:10,563 (EditorListener.java:236) Viewport changed: 175+32
+DEBUG 2017-04-28 17:39:10,635 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:11,744 (EditorListener.java:236) Viewport changed: 171+32
+DEBUG 2017-04-28 17:39:11,745 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:12,167 (EditorListener.java:236) Viewport changed: 166+33
+DEBUG 2017-04-28 17:39:12,168 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:12,211 (EditorListener.java:236) Viewport changed: 162+33
+DEBUG 2017-04-28 17:39:12,230 (EditorListener.java:236) Viewport changed: 158+32
+DEBUG 2017-04-28 17:39:12,578 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:12,651 (EditorListener.java:236) Viewport changed: 154+32
+DEBUG 2017-04-28 17:39:12,653 (EditorListener.java:236) Viewport changed: 150+32
+DEBUG 2017-04-28 17:39:12,693 (EditorListener.java:236) Viewport changed: 145+33
+DEBUG 2017-04-28 17:39:12,695 (EditorListener.java:236) Viewport changed: 141+33
+DEBUG 2017-04-28 17:39:12,715 (EditorListener.java:236) Viewport changed: 137+32
+DEBUG 2017-04-28 17:39:12,720 (EditorListener.java:236) Viewport changed: 133+32
+DEBUG 2017-04-28 17:39:12,730 (EditorListener.java:236) Viewport changed: 129+32
+DEBUG 2017-04-28 17:39:13,288 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:15,275 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:39:15,275 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:18,621 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:24,455 (EditorListener.java:236) Viewport changed: 120+33
+DEBUG 2017-04-28 17:39:24,455 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:24,456 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:39:24,456 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:39:24,457 (EditorListener.java:236) Viewport changed: 108+32
+DEBUG 2017-04-28 17:39:24,458 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:39:24,461 (EditorListener.java:236) Viewport changed: 99+33
+DEBUG 2017-04-28 17:39:24,478 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:39:24,480 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:39:24,481 (EditorListener.java:236) Viewport changed: 87+32
+DEBUG 2017-04-28 17:39:24,482 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:39:24,483 (EditorListener.java:236) Viewport changed: 78+33
+DEBUG 2017-04-28 17:39:24,484 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:39:24,518 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:39:24,519 (EditorListener.java:236) Viewport changed: 66+32
+DEBUG 2017-04-28 17:39:24,519 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:39:24,520 (EditorListener.java:236) Viewport changed: 57+33
+DEBUG 2017-04-28 17:39:24,521 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:39:24,522 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:39:24,522 (EditorListener.java:236) Viewport changed: 45+32
+DEBUG 2017-04-28 17:39:24,523 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:39:24,543 (EditorListener.java:236) Viewport changed: 36+33
+DEBUG 2017-04-28 17:39:24,588 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 17:39:24,614 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:25,020 (EditorListener.java:236) Viewport changed: 36+33
+DEBUG 2017-04-28 17:39:25,021 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 17:39:25,038 (EditorListener.java:236) Viewport changed: 45+32
+DEBUG 2017-04-28 17:39:25,071 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 17:39:25,136 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 17:39:25,147 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:25,541 (EditorListener.java:236) Viewport changed: 57+33
+DEBUG 2017-04-28 17:39:25,600 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 17:39:25,602 (EditorListener.java:236) Viewport changed: 66+32
+DEBUG 2017-04-28 17:39:25,628 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 17:39:25,662 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 17:39:25,689 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:25,698 (EditorListener.java:236) Viewport changed: 78+33
+DEBUG 2017-04-28 17:39:26,138 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 17:39:26,194 (EditorListener.java:236) Viewport changed: 87+32
+DEBUG 2017-04-28 17:39:26,227 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 17:39:26,360 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 17:39:26,377 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:26,709 (EditorListener.java:236) Viewport changed: 99+33
+DEBUG 2017-04-28 17:39:26,783 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 17:39:26,992 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:27,007 (EditorListener.java:236) Viewport changed: 108+32
+DEBUG 2017-04-28 17:39:27,181 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 17:39:27,212 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 17:39:27,246 (EditorListener.java:236) Viewport changed: 120+33
+DEBUG 2017-04-28 17:39:27,354 (EditorListener.java:236) Viewport changed: 124+33
+DEBUG 2017-04-28 17:39:27,606 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:28,621 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:38,622 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:48,622 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:39:58,623 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:40:08,623 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:40:18,624 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:40:28,624 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:40:38,625 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:40:48,626 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:40:58,627 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:08,627 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:18,628 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:28,628 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:38,629 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:48,120 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:48,339 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:48,782 (ActivitySequencer.java:496) send (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:49,393 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:41:58,640 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:03,967 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:08,640 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:18,643 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:28,641 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:38,642 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:48,642 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:42:58,643 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:43:08,643 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:43:18,644 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:43:28,644 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:43:38,645 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:43:48,645 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:43:58,646 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:44:08,646 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:44:18,647 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:44:28,647 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:44:38,648 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:44:48,649 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:44:58,650 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:08,650 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:18,651 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:28,651 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:34,557 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:38,652 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:48,652 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:45:58,652 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:46:08,653 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:46:18,653 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:46:28,654 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:46:38,654 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:46:48,655 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:46:58,655 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:47:08,656 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:47:18,656 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:47:28,657 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:47:38,657 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:47:48,658 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:47:58,658 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:48:08,659 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:48:18,659 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:48:28,660 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:48:38,660 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:48:48,661 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:48:58,661 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:49:08,662 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:49:18,662 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:49:28,663 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:49:38,663 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:49:48,663 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:49:58,664 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:50:08,665 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:50:18,665 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:50:28,666 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:50:38,666 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:50:48,667 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:50:58,667 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:51:08,668 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:51:18,668 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:51:28,669 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:51:38,669 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:51:48,670 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:51:58,670 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:52:08,671 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:52:18,671 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:52:28,672 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:52:38,672 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:52:48,673 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:52:58,673 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:53:08,674 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:53:18,674 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:53:28,674 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:53:38,675 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:53:48,675 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:53:58,677 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:54:08,677 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:54:18,679 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:54:28,679 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:54:38,680 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:54:48,680 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:54:58,681 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:55:08,682 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:55:18,682 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:55:28,683 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:55:38,685 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:55:48,689 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:55:58,689 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:56:08,690 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:56:18,690 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:56:28,691 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:56:38,691 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:56:48,692 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:56:58,692 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:57:08,693 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:57:18,693 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:57:28,694 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:57:38,694 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:57:48,695 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:57:58,695 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:58:08,696 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:58:18,696 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:58:28,697 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:58:38,697 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:58:48,698 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:58:58,698 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:59:08,699 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:59:18,699 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:59:28,699 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:59:38,700 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:59:48,701 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 17:59:58,701 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:08,702 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:10,486 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:10,631 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:11,340 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:12,335 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:13,107 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:17,103 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:17,286 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:18,702 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:24,603 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:24,774 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:25,225 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:25,867 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:26,467 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:28,702 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:38,704 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:48,705 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:00:58,706 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:08,706 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:13,594 (EditorListener.java:236) Viewport changed: 120+33
+DEBUG 2017-04-28 18:01:13,595 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:13,602 (EditorListener.java:236) Viewport changed: 116+32
+DEBUG 2017-04-28 18:01:13,627 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 18:01:13,629 (EditorListener.java:236) Viewport changed: 108+32
+DEBUG 2017-04-28 18:01:13,631 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 18:01:13,633 (EditorListener.java:236) Viewport changed: 99+33
+DEBUG 2017-04-28 18:01:13,659 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 18:01:13,660 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 18:01:13,660 (EditorListener.java:236) Viewport changed: 87+32
+DEBUG 2017-04-28 18:01:13,674 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 18:01:13,675 (EditorListener.java:236) Viewport changed: 78+33
+DEBUG 2017-04-28 18:01:13,676 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 18:01:13,694 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 18:01:13,696 (EditorListener.java:236) Viewport changed: 66+32
+DEBUG 2017-04-28 18:01:13,710 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 18:01:13,782 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:13,967 (EditorListener.java:236) Viewport changed: 57+33
+DEBUG 2017-04-28 18:01:13,969 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 18:01:13,970 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 18:01:13,971 (EditorListener.java:236) Viewport changed: 45+32
+DEBUG 2017-04-28 18:01:14,005 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 18:01:14,007 (EditorListener.java:236) Viewport changed: 36+33
+DEBUG 2017-04-28 18:01:14,008 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 18:01:14,009 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 18:01:14,035 (EditorListener.java:236) Viewport changed: 24+32
+DEBUG 2017-04-28 18:01:14,037 (EditorListener.java:236) Viewport changed: 0+56
+DEBUG 2017-04-28 18:01:14,171 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:16,563 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 18:01:16,564 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:16,564 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 18:01:16,597 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 18:01:16,598 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 18:01:16,645 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 18:01:16,712 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 18:01:16,724 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:16,762 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 18:01:16,763 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 18:01:16,796 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 18:01:16,845 (EditorListener.java:236) Viewport changed: 65+33
+DEBUG 2017-04-28 18:01:17,145 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 18:01:17,165 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 18:01:17,183 (EditorListener.java:236) Viewport changed: 78+32
+DEBUG 2017-04-28 18:01:17,185 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 18:01:17,228 (EditorListener.java:236) Viewport changed: 86+33
+DEBUG 2017-04-28 18:01:17,230 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:17,328 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 18:01:17,462 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 18:01:17,618 (EditorListener.java:236) Viewport changed: 99+32
+DEBUG 2017-04-28 18:01:17,668 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 18:01:17,815 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:17,865 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 18:01:18,113 (EditorListener.java:236) Viewport changed: 112+32
+DEBUG 2017-04-28 18:01:18,467 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:19,101 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:28,707 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:38,708 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:48,708 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:01:58,709 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:02:08,709 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:02:18,710 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:02:28,710 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:02:38,711 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:02:48,711 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:02:58,712 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:03:08,712 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:03:18,713 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:03:28,713 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:03:38,714 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:03:48,714 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:03:58,715 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:04:08,715 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:04:18,716 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:04:28,716 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:04:38,717 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:04:48,717 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:04:58,718 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:05:08,718 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:05:18,720 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:05:28,720 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:05:38,720 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:05:48,721 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:05:58,721 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:08,722 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:18,724 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:28,724 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:38,734 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:39,491 (EditorListener.java:236) Viewport changed: 107+33
+DEBUG 2017-04-28 18:06:39,492 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:39,493 (EditorListener.java:236) Viewport changed: 103+33
+DEBUG 2017-04-28 18:06:39,539 (EditorListener.java:236) Viewport changed: 99+32
+DEBUG 2017-04-28 18:06:39,539 (EditorListener.java:236) Viewport changed: 95+32
+DEBUG 2017-04-28 18:06:39,558 (EditorListener.java:236) Viewport changed: 91+32
+DEBUG 2017-04-28 18:06:39,575 (EditorListener.java:236) Viewport changed: 86+33
+DEBUG 2017-04-28 18:06:39,576 (EditorListener.java:236) Viewport changed: 82+33
+DEBUG 2017-04-28 18:06:39,607 (EditorListener.java:236) Viewport changed: 78+32
+DEBUG 2017-04-28 18:06:39,608 (EditorListener.java:236) Viewport changed: 74+32
+DEBUG 2017-04-28 18:06:39,626 (EditorListener.java:236) Viewport changed: 70+32
+DEBUG 2017-04-28 18:06:39,627 (EditorListener.java:236) Viewport changed: 65+33
+DEBUG 2017-04-28 18:06:39,657 (EditorListener.java:236) Viewport changed: 61+33
+DEBUG 2017-04-28 18:06:39,658 (EditorListener.java:236) Viewport changed: 57+32
+DEBUG 2017-04-28 18:06:39,676 (EditorListener.java:236) Viewport changed: 53+32
+DEBUG 2017-04-28 18:06:39,706 (EditorListener.java:236) Viewport changed: 49+32
+DEBUG 2017-04-28 18:06:39,707 (EditorListener.java:236) Viewport changed: 44+33
+DEBUG 2017-04-28 18:06:39,726 (EditorListener.java:236) Viewport changed: 40+33
+DEBUG 2017-04-28 18:06:39,727 (EditorListener.java:236) Viewport changed: 36+32
+DEBUG 2017-04-28 18:06:39,754 (EditorListener.java:236) Viewport changed: 32+32
+DEBUG 2017-04-28 18:06:39,754 (EditorListener.java:236) Viewport changed: 28+32
+DEBUG 2017-04-28 18:06:39,776 (EditorListener.java:236) Viewport changed: 0+56
+DEBUG 2017-04-28 18:06:39,806 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:48,734 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:06:58,735 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:07:08,742 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:07:18,742 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:07:28,743 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:07:38,743 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:07:48,744 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:07:58,746 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:08:08,747 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:08:18,748 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:08:28,748 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:08:38,749 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:08:48,749 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:08:58,750 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:09:08,750 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:09:18,751 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:09:28,751 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:09:38,752 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:09:48,752 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:09:58,753 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:08,754 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:18,754 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:28,754 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:38,755 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:48,755 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:55,893 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:56,051 (ActivitySequencer.java:496) send (002) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:56,556 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:57,143 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:10:58,756 (ActivitySequencer.java:496) send (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:11:07,003 (ActivitySequencer.java:546) rcvd (001) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:11:07,339 (ActivitySequencer.java:546) rcvd (003) blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:11:08,162 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2017-04-28 18:11:08,164 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2017-04-28 18:11:08,165 (ChangeColorManager.java:383) new color assignment: {pika@saros-con.imp.fu-berlin.de/Saros=1}
+DEBUG 2017-04-28 18:11:08,165 (ChangeColorManager.java:634) updating color id set: [pika@saros-con.imp.fu-berlin.de]
+INFO  2017-04-28 18:11:08,167 (ParticipantCollector.java:77) blop4@saros-con.imp.fu-berlin.de/Saros left - session now contains 1 users
+DEBUG 2017-04-28 18:11:09,012 (BinaryChannelConnection.java:112) [mode=IBB, id=default] blop4@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2017-04-28 18:11:09,101 (DataTransferManager.java:330) closed connection [pool id=default:out:blop4@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=default] blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:11:09,158 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] blop4@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2017-04-28 18:11:09,245 (DataTransferManager.java:336) closed connection [pool id=saros-main-session:in:blop4@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] blop4@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-04-28 18:11:10,003 (DiscoveryManager.java:98) clearing cache entry of contact blop4@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+INFO  2017-04-28 18:11:16,821 (SarosSession.java:555) user blop4@saros-con.imp.fu-berlin.de/Saros left session
+DEBUG 2017-04-28 18:11:16,822 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2017-04-28 18:11:16,824 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2017-04-28 18:11:16,826 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2017-04-28 18:11:16,826 (FeedbackManager.java:104) Session lasted 90 min 28 s
+INFO  2017-04-28 18:11:16,830 (FeedbackManager.java:119) Sessions until next survey: 4
+DEBUG 2017-04-28 18:11:16,831 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2017-04-28 18:11:16,832 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2017-04-28 18:11:16,841 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.8
+  data_transfer.IBB.number_of_events=1015
+  data_transfer.IBB.total_size_kb=189
+  data_transfer.IBB.total_time_ms=246476
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_131
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Linux
+  platform.version=3.12.0.v20170306-1705
+  random.user.id=2017-04-26_12-00-32_2131731047
+  role.1.duration=90.48
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=90.48
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=5
+  session.id=1203580830
+  session.local.start=2017-04-28T16:11:16Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=1
+  session.time.users.1=0.87
+  session.time.users.2.percent=99
+  session.time.users.2=89.61
+  session.time=90.48
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2017-04-28 18:11:16,843 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2017-04-28 18:11:16,992 (EditorManager.java:1697) unlocking all editors
+DEBUG 2017-04-28 18:11:16,994 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-04-28 18:11:16,994 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-04-28 18:11:17,004 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@55462e0b
+DEBUG 2017-04-28 18:11:17,044 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2017-04-28 18:11:17,045 (DocumentRecord.java:93) Added Node: attr(149339587704585446) name=svg
+INFO  2017-04-28 18:11:17,045 (SarosSessionManager.java:351) session stopped
+DEBUG 2017-04-28 18:17:55,257 (XMPPConnectionService.java:398) pika@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+DEBUG 2017-04-28 18:17:55,415 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2017-04-28 18:17:55,418 (UPnPServiceImpl.java:295) deleting existing port mappings

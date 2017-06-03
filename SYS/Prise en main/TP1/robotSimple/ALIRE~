@@ -1,0 +1,43 @@
+Les versions v0-v2 sont utilisées par le cours de MNI et servent
+d'introduction à la notion de TA
+
+v0
+classe ChasseAuTresor	: 
+ - main = application de chasse au trésor ; pas de notion de robot
+--------------------------------------------------------------------------------
+v1
+classe Robot		: attributs publics, constructeur
+classe OperationsRobot	: opérations = fonctions paramétrées par un robot
+classe ChasseAuTresor	: utilisation du robot pour une application donnée
+--------------------------------------------------------------------------------
+v2
+classe Robot		: attributs privés, constructeur, opérations = méthodes
+classe ChasseAuTresor	: utilisation du robot pour une application donnée
+--------------------------------------------------------------------------------
+v3
+
+SpecRobot : interface
+classe Robot : implémente SpecRobot ; attributs privés, constructeur, méthodes
+
+RobotRapide : hérite de Robot
+
+  - constructeur avec taille du pas
+  - avance d'un pas de taille fixée par le constructeur
+  - redéfinit avancer et toString
+
+RobotCavalier : hérite de Robot
+
+  - ajout de fonctionnalité : saute comme un cavalier d'échecs
+--------------------------------------------------------------------------------
+v4
+
+SpecRobot : interface
+  (ajout de public SpecRobot clone())
+
+RobotAbstrait : implémente une partie des fonctionnalités de SpecRobot
+Robot : classe concrète, hérite de RobotAbstrait
+RobotRapide : classe concrète, hérite de Robot ; redéfinit avancer et toString
+RobotCavalier : classe concrète, hérite de Robot ; ajoute sauter
+
+
+voir ~/engel/ENS/AP/sddJava/robot

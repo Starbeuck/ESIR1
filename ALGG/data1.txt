@@ -1,0 +1,33 @@
+# etape 0
+initialisation_ressources(["r1","r2","r3"],G)
+# etape 1
+creation_processus("p1",G)
+# etape 2
+demande_ressource("p1", ["r1"],G)
+# etape 3
+creation_processus("p2",G)
+# etape 4
+demande_ressource("p2", ["r1","r2"],G)
+# etape 5
+demande_ressource("p1", ["r2"],G)
+#etape 6
+processus_actif(G)
+# etape 7
+file_dattente_ressource(G, "r1")
+# etape 8
+file_dattente_processus(G)
+# etape 9
+compo_fortement_connexe(G)
+# etape10
+liberation_ressource(G, "r1","p1")
+
+#etape 11
+creation_processus("p3",G)
+
+# etape 12
+demande_ressource("p3", ["r3"],G) 
+
+# etape 13
+destruction_processus ("p3",G)
+# etape 9
+compo_fortement_connexe(G)

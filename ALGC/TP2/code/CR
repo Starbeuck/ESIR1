@@ -1,0 +1,32 @@
+- sinusoide pure
+Temps de calcul pour n=16 et k=1
+[0 8.0 0 0 0 0 0 0 0 0 0 0 0 0 0 8.0]
+
+Temps de calcul pour n=16 et k=14
+[0 0 8.0 0 0 0 0 0 0 0 0 0 0 0 8.0 0]
+
+Temps de calcul pour n=16 et k = 10
+[0 0 0 0 0 0 8.0 0 0 0 8.0 0 0 0 0 0]
+
+Temps de calcul pour n=16 et k = 5
+[0 0 0 0 0 8.0 0 0 0 0 0 8.0 0 0 0 0]
+
+c'est symétrique 
+parce que quand on fait varier k on prend e de k et e de n-k 
+pour k=1 on a besoin d'une fois le y1
+
+- somme de 2 sinusoides
+
+Temps de calcul pour n=16
+[0 8.0 0 4.0 0 0 0 0 0 0 0 0 0 4.0 0 8.0]
+
+- fonction
+Temps de calcul pour n=16
+[64.0 0 16.0i 0 0 0 0 8.0 0 8.0 0 0 0 0 -16.0i 0]
+
+
+
+EXERCICE 2 RINE N'A CHANGÉ C'EST NORMAL 
+
+exo 3
+1) . .

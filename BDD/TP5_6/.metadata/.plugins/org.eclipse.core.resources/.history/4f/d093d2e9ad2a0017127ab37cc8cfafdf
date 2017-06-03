@@ -1,0 +1,21 @@
+import javax.swing.JFrame;
+
+public class Interface {
+
+	public static void main(String[] args){    
+
+		//créeation de la fenetre
+		JFrame fenetre = new JFrame();
+		// on rend visible la fenetre
+		fenetre.setVisible(true);
+		//on lui met un "nom"
+		fenetre.setTitle("Emploi du temps ESIR");
+		//Définit sa taille : 400 pixels de large et 100 pixels de haut
+		fenetre.setSize(400, 100);
+		//Nous demandons maintenant à notre objet de se positionner au centre
+		fenetre.setLocationRelativeTo(null);
+		//Termine le processus lorsqu'on clique sur la croix rouge
+		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}       
+}

@@ -1,0 +1,16 @@
+Les versions v0-v2 sont utilisées par le cours de MNI et servent
+d'introduction à la notion de TA
+
+v0
+classe ChasseAuTresor	: 
+ - main = application de chasse au trésor ; pas de notion de robot
+--------------------------------------------------------------------------------
+v1
+classe Robot		: attributs publics, constructeur
+classe OperationsRobot	: opérations = fonctions paramétrées par un robot
+classe ChasseAuTresor	: utilisation du robot pour une application donnée
+--------------------------------------------------------------------------------
+v2
+classe Robot		: attributs privés, constructeur, opérations = méthodes
+classe ChasseAuTresor	: utilisation du robot pour une application donnée
+--------------------------------------------------------------------------------

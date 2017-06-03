@@ -1,0 +1,1378 @@
+!SESSION Wed Apr 26 10:26:20 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-26 10:26:20.045
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-26 10:26:19.948 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-26 10:26:20.468
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+!SESSION Wed Apr 26 10:59:10 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-26 10:59:10.302
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-26 10:59:10.271 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -data file:/home/skeroullas/Documents/S6/BDD/TP/TP5_6/ -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-26 10:59:10.606
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+!SESSION Wed Apr 26 11:17:24 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-26 11:17:24.819
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-26 11:17:24.790 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -data file:/home/skeroullas/Documents/S6/BDD/TP/TP5_6/ -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-26 11:17:25.124
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY org.eclipse.ui 2 2 2017-04-26 11:17:50.068
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 11:18:37.178
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /148.60.133.32:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 11:42:39.365
+!MESSAGE [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host (Socks5Transport.java:411)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-26 11:42:40.454
+!MESSAGE An error occurred while establishing a response connection  (Socks5Transport.java:440)
+!STACK 0
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-26 11:42:40.472
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 11:43:34.448
+!MESSAGE [SOCKS5Transport] could not establish a connection to blop4@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host (Socks5Transport.java:544)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-26 11:43:35.076
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 11:44:04.452
+!MESSAGE failed to connect to blop4@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport (DataTransferManager.java:415)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 12:08:28.801
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@7dd0fdfd, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:125)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 12:08:28.803
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@775e6dd1, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:126)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+!SESSION Wed Apr 26 20:19:58 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-26 20:19:58.506
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-26 20:19:58.420 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-26 20:19:59.016
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-26 20:20:30.694
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.14:0 (StunServiceImpl.java:420)
+
+!ENTRY org.eclipse.pde.core 4 0 2017-04-26 21:31:20.743
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:637)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:543)
+	at org.eclipse.pde.internal.core.PluginModelManager.getEntryTable(PluginModelManager.java:482)
+	at org.eclipse.pde.internal.core.PluginModelManager.getActiveModels(PluginModelManager.java:1043)
+	at org.eclipse.pde.internal.ui.search.dialogs.FilteredPluginArtifactsSelectionDialog.fillContentProvider(FilteredPluginArtifactsSelectionDialog.java:357)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.filterContent(FilteredItemsSelectionDialog.java:2099)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.internalRun(FilteredItemsSelectionDialog.java:2047)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.doRun(FilteredItemsSelectionDialog.java:2019)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.run(FilteredItemsSelectionDialog.java:2006)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.core.source_3.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.launching.source_1.1.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.optional.junit.source_3.3.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.ui.source_3.6.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.compare.core.source_3.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.compare.source_3.7.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.commands.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.contenttype.source_3.5.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.beans.source_1.3.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.observable.source_1.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.property.source_1.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.source_1.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.expressions.source_3.5.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.externaltools.source_1.0.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.filebuffers.source_3.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.filesystem.linux.x86_64.source_1.2.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.filesystem.source_1.6.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.jobs.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.net.linux.x86_64.source_1.2.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.net.source_1.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.resources.source_3.11.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.runtime.source_3.12.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.variables.source_3.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.debug.core.source_3.10.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.debug.ui.source_3.11.202.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.commands.source_0.11.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.contexts.source_1.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.di.annotations.source_1.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.di.extensions.source_0.14.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.di.source_1.6.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.services.source_2.0.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.demo.contacts.source_0.9.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.emf.xpath.source_0.1.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.compat.source_4.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.emf.editor3x.source_4.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.emf.ui.source_4.5.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.jdt.templates.source_4.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.services.source_4.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.source_4.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.bindings.source_0.11.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.css.core.source_0.12.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.css.swt.source_0.12.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.css.swt.theme.source_0.10.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.di.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.dialogs.source_1.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.model.workbench.source_1.2.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.progress.source_0.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.services.source_1.2.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.swt.gtk.source_1.0.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.widgets.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.addons.swt.source_1.2.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.renderers.swt.source_0.14.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.source_1.4.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.swt.source_0.14.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench3.source_0.13.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.app.source_1.3.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.bidi.source_1.0.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.cm.source_1.1.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.common.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.concurrent.source_1.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.console.source_1.1.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.coordinator.source_1.3.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.device.source_1.0.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.ds.source_1.4.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.event.source_1.3.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.frameworkadmin.equinox.source_1.0.700.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.frameworkadmin.source_2.0.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.http.jetty.source_3.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.http.registry.source_1.1.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.http.servlet.source_1.3.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.io.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.jsp.jasper.registry.source_1.0.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.jsp.jasper.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.launcher.source_1.3.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.metatype.source_1.4.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.artifact.repository.source_1.1.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.console.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.core.source_2.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.director.app.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.director.source_2.3.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.directorywatcher.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.discovery.compatibility.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.discovery.source_1.0.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.engine.source_2.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.extensionlocation.source_1.2.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.garbagecollector.source_1.0.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.installer.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.jarprocessor.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.metadata.repository.source_1.2.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.metadata.source_2.3.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.operations.source_2.4.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.publisher.eclipse.source_1.2.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.publisher.source_1.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.reconciler.dropins.source_1.1.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.repository.source_2.3.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.repository.tools.source_2.1.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.sar.source_0.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.source_2.1.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.natives.source_1.2.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.transport.ecf.source_1.1.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.admin.rcp.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.admin.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.discovery.source_1.0.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.importexport.source_1.1.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.source_1.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.source_1.0.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.source_2.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.updatechecker.source_1.1.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.updatesite.source_1.0.600.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.preferences.source_3.6.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.region.source_1.3.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.registry.source_3.6.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.security.source_1.2.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.security.ui.source_1.1.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.manipulator.source_2.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.source_1.1.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.slf4j.stub.source_1.0.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.supplement.source_1.6.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.useradmin.source_1.1.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.util.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.wireadmin.source_1.0.600.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.base.source_4.1.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.source_3.7.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.ui.source_4.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.webapp.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.annotation.source_2.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.annotation.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.apt.core.source_3.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.apt.pluggable.core.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.apt.ui.source_3.4.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.compiler.apt.source_1.2.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.compiler.tool.source_1.1.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.core.manipulation.source_1.7.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.core.source_3.12.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.debug.source_3.10.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.debug.ui.source_3.7.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit.core.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit.runtime.source_3.4.600.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit.source_3.9.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit4.runtime.source_1.1.600.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.launching.source_3.8.101.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.ui.source_3.12.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.databinding.source_1.8.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.snippets.source_3.3.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.source_3.12.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.text.source_3.11.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jsch.core.source_1.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jsch.ui.source_1.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ltk.core.refactoring.source_3.7.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ltk.ui.refactoring.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.compatibility.state.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.services.source_3.5.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.source_3.11.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.util.source_3.3.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.annotations.source_1.0.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.cdcfoundation10.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.cdcfoundation11.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se12.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se13.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se14.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se15.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.javase16.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.javase17.source_1.0.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.javase18.source_1.0.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.jre11.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.osgiminimum10.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.osgiminimum11.source_1.0.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.osgiminimum12.source_1.0.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.source_1.1.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ui.source_1.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.build.source_3.9.200.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.core.source_3.11.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ds.annotations.source_1.0.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ds.core.source_1.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ds.ui.source_1.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.junit.runtime.source_3.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.launching.source_3.6.401.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.runtime.source_3.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.source_3.12.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ua.core.source_1.0.500.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ua.ui.source_1.1.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ui.source_3.9.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ui.templates.source_3.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.platform.source_4.6.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.releng.tools.source_3.9.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.search.source_3.11.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64.source_3.105.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.swt.tools.source_3.105.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.core.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.cvs.core.source_3.4.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.cvs.ssh2.source_3.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.cvs.ui.source_3.4.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.ui.source_3.8.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.test.performance.source_3.12.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.text.source_3.6.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.browser.source_3.5.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.cheatsheets.source_3.5.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.console.source_3.6.201.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.editors.source_3.10.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.externaltools.source_3.3.100.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.forms.source_3.7.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.ide.application.source_1.1.101.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.ide.source_3.12.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.intro.quicklinks.source_1.0.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.intro.source_3.5.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.intro.universal.source_3.3.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.monitoring.source_1.1.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.navigator.resources.source_3.5.101.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.navigator.source_3.6.101.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.net.source_1.3.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.source_3.108.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.themes.source_1.1.300.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.trace.source_1.0.400.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.views.log.source_1.2.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.views.properties.tabbed.source_3.7.0.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.views.source_3.8.101.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.workbench.source_3.108.2.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.workbench.texteditor.source_3.10.1.v20170109-1424.jar
+Contains: File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.update.configurator.source_3.3.400.v20170109-1424.jar
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.core.source_3.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.launching.source_1.1.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.optional.junit.source_3.3.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ant.ui.source_3.6.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.compare.core.source_3.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.compare.source_3.7.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.commands.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.contenttype.source_3.5.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.beans.source_1.3.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.observable.source_1.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.property.source_1.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.databinding.source_1.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.expressions.source_3.5.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.externaltools.source_1.0.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.filebuffers.source_3.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.filesystem.linux.x86_64.source_1.2.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.filesystem.source_1.6.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.jobs.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.net.linux.x86_64.source_1.2.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.net.source_1.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.resources.source_3.11.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.runtime.source_3.12.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.core.variables.source_3.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.debug.core.source_3.10.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.debug.ui.source_3.11.202.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.commands.source_0.11.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.contexts.source_1.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.di.annotations.source_1.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.di.extensions.source_0.14.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.di.source_1.6.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.core.services.source_2.0.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.demo.contacts.source_0.9.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.749
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.emf.xpath.source_0.1.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.compat.source_4.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.emf.editor3x.source_4.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.emf.ui.source_4.5.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.jdt.templates.source_4.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.services.source_4.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.tools.source_4.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.bindings.source_0.11.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.css.core.source_0.12.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.css.swt.source_0.12.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.css.swt.theme.source_0.10.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.di.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.dialogs.source_1.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.model.workbench.source_1.2.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.progress.source_0.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.services.source_1.2.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.swt.gtk.source_1.0.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.widgets.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.addons.swt.source_1.2.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.renderers.swt.source_0.14.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.source_1.4.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench.swt.source_0.14.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.e4.ui.workbench3.source_0.13.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.app.source_1.3.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.bidi.source_1.0.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.cm.source_1.1.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.common.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.concurrent.source_1.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.console.source_1.1.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.coordinator.source_1.3.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.device.source_1.0.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.ds.source_1.4.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.event.source_1.3.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.frameworkadmin.equinox.source_1.0.700.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.frameworkadmin.source_2.0.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.http.jetty.source_3.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.http.registry.source_1.1.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.http.servlet.source_1.3.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.io.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.jsp.jasper.registry.source_1.0.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.jsp.jasper.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.launcher.source_1.3.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.metatype.source_1.4.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.artifact.repository.source_1.1.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.console.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.core.source_2.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.director.app.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.director.source_2.3.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.directorywatcher.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.discovery.compatibility.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.discovery.source_1.0.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.engine.source_2.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.extensionlocation.source_1.2.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.garbagecollector.source_1.0.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.installer.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.jarprocessor.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.metadata.repository.source_1.2.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.metadata.source_2.3.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.operations.source_2.4.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.publisher.eclipse.source_1.2.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.publisher.source_1.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.reconciler.dropins.source_1.1.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.repository.source_2.3.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.repository.tools.source_2.1.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.sar.source_0.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.source_2.1.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.natives.source_1.2.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.transport.ecf.source_1.1.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.admin.rcp.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.admin.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.discovery.source_1.0.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.importexport.source_1.1.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.source_1.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.source_1.0.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.750
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.ui.source_2.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.updatechecker.source_1.1.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.p2.updatesite.source_1.0.600.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.preferences.source_3.6.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.region.source_1.3.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.registry.source_3.6.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.security.source_1.2.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.security.ui.source_1.1.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.manipulator.source_2.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.source_1.1.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.slf4j.stub.source_1.0.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.supplement.source_1.6.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.useradmin.source_1.1.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.util.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.equinox.wireadmin.source_1.0.600.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.base.source_4.1.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.source_3.7.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.ui.source_4.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.help.webapp.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.annotation.source_2.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.annotation.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.apt.core.source_3.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.apt.pluggable.core.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.apt.ui.source_3.4.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.compiler.apt.source_1.2.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.compiler.tool.source_1.1.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.core.manipulation.source_1.7.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.core.source_3.12.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.debug.source_3.10.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.debug.ui.source_3.7.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit.core.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit.runtime.source_3.4.600.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit.source_3.9.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.junit4.runtime.source_1.1.600.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.launching.source_3.8.101.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jdt.ui.source_3.12.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.databinding.source_1.8.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.snippets.source_3.3.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.source_3.12.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jface.text.source_3.11.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jsch.core.source_1.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.jsch.ui.source_1.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ltk.core.refactoring.source_3.7.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ltk.ui.refactoring.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.compatibility.state.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.services.source_3.5.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.source_3.11.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.osgi.util.source_3.3.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.annotations.source_1.0.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.cdcfoundation10.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.cdcfoundation11.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se12.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se13.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se14.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.j2se15.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.javase16.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.javase17.source_1.0.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.javase18.source_1.0.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.jre11.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.osgiminimum10.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.osgiminimum11.source_1.0.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ee.osgiminimum12.source_1.0.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.source_1.1.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.api.tools.ui.source_1.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.build.source_3.9.200.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.core.source_3.11.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ds.annotations.source_1.0.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ds.core.source_1.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ds.ui.source_1.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.junit.runtime.source_3.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.launching.source_3.6.401.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.runtime.source_3.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.source_3.12.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ua.core.source_1.0.500.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ua.ui.source_1.1.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ui.source_3.9.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.751
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.pde.ui.templates.source_3.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.platform.source_4.6.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.releng.tools.source_3.9.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.search.source_3.11.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64.source_3.105.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.swt.tools.source_3.105.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.core.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.cvs.core.source_3.4.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.cvs.ssh2.source_3.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.cvs.ui.source_3.4.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.team.ui.source_3.8.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.test.performance.source_3.12.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.text.source_3.6.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.browser.source_3.5.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.cheatsheets.source_3.5.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.console.source_3.6.201.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.editors.source_3.10.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.externaltools.source_3.3.100.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.forms.source_3.7.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.ide.application.source_1.1.101.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.ide.source_3.12.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.intro.quicklinks.source_1.0.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.intro.source_3.5.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.intro.universal.source_3.3.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.monitoring.source_1.1.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.navigator.resources.source_3.5.101.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.navigator.source_3.6.101.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.net.source_1.3.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.source_3.108.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.themes.source_1.1.300.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.trace.source_1.0.400.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.views.log.source_1.2.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.views.properties.tabbed.source_3.7.0.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.views.source_3.8.101.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.workbench.source_3.108.2.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.ui.workbench.texteditor.source_3.10.1.v20170109-1424.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2017-04-26 21:31:20.752
+!MESSAGE File does not exist: /usr/share/eclipse/droplets/eclipse-sdk/eclipse/plugins/org.eclipse.update.configurator.source_3.3.400.v20170109-1424.jar
+!SESSION Thu Apr 27 08:10:13 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-27 08:10:13.458
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-27 08:10:13.390 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-27 08:10:13.987
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-27 08:10:43.063
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /148.60.64.54:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-27 13:01:17.966
+!MESSAGE XMPP connection error:  (XMPPConnectionService.java:101)
+!STACK 0
+java.net.SocketException: Invalid argument (Read failed)
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.io.BufferedReader.read(BufferedReader.java:286)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:312)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-27 13:01:17.969
+!MESSAGE  new connection state == ERROR (XMPPConnectionService.java:400)
+!STACK 0
+java.net.SocketException: Invalid argument (Read failed)
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.io.BufferedReader.read(BufferedReader.java:286)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:312)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+!SESSION Fri Apr 28 16:12:12 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-28 16:12:12.366
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-28 16:12:12.302 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-28 16:12:12.767
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:12:37.492
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /10.42.0.118:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:33:35.546
+!MESSAGE [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host (Socks5Transport.java:411)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:33:36.958
+!MESSAGE An error occurred while establishing a response connection  (Socks5Transport.java:440)
+!STACK 0
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:33:36.973
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:34:19.975
+!MESSAGE [SOCKS5Transport] could not establish a connection to blop4@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host (Socks5Transport.java:544)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:34:20.352
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:34:44.170
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.util.ThreadUtils$1@2fe27006, UI thread is not available (SWTSynchronizer.java:55)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.synchronize.internal.SWTSynchronizer.exec(SWTSynchronizer.java:56)
+	at de.fu_berlin.inf.dpp.synchronize.internal.SWTSynchronizer.syncExec(SWTSynchronizer.java:25)
+	at de.fu_berlin.inf.dpp.concurrent.watchdog.ConsistencyWatchdogServer$1.run(ConsistencyWatchdogServer.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:34:44.399
+!MESSAGE could not shutdown Saros gracefully (Saros.java:323)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:34:44.413
+!MESSAGE there are still running negotiation processes (SarosSessionManager.java:333)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:34:44.414
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.actions.RemoveUserAction$2$2@2c4c2385, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.actions.RemoveUserAction$2.sessionEnding(RemoveUserAction.java:64)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnding(SarosSessionManager.java:701)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:335)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:34:44.450
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.concurrent.watchdog.ConsistencyWatchdogServer$2@44ba19c5, UI thread is not available (SWTSynchronizer.java:55)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.synchronize.internal.SWTSynchronizer.exec(SWTSynchronizer.java:56)
+	at de.fu_berlin.inf.dpp.synchronize.internal.SWTSynchronizer.asyncExec(SWTSynchronizer.java:20)
+	at de.fu_berlin.inf.dpp.concurrent.watchdog.ConsistencyWatchdogServer.stop(ConsistencyWatchdogServer.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:639)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:340)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:34:44.502
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$3$1@56897a3f, UI thread is not available (SWTUtils.java:193)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$3.execute(EditorManager.java:262)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$3.unblock(EditorManager.java:253)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.lockSession(StopManager.java:408)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.stop(StopManager.java:579)
+	at sun.reflect.GeneratedMethodAccessor55.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:639)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:340)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:34:45.321
+!MESSAGE [mode=IBB, id=saros-main-session] blop4@saros-con.imp.fu-berlin.de/Saros network error: Stream is closed (BinaryChannelConnection.java:115)
+!STACK 0
+java.io.IOException: Stream is closed
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBInputStream.checkClosed(InBandBytestreamSession.java:395)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBInputStream.read(InBandBytestreamSession.java:305)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.readNextXMPPExtension(BinaryChannelConnection.java:347)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:343)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:106)
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-04-28 16:34:45.363
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob
+!SESSION Fri Apr 28 16:34:43 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-28 16:34:43.110
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-28 16:34:43.076 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-28 16:34:43.418
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:35:02.255
+!MESSAGE cancelled process OSN [remote side: blop4@saros-con.imp.fu-berlin.de/Saros] because the remote side encountered an error: I am already in a Saros session and so cannot accept your invitation. (CancelableProcess.java:411)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:35:02.554
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /10.42.0.118:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:35:02.792
+!MESSAGE Your invitation to blop4@saros-con.imp.fu-berlin.de has been canceled remotely because of an error:
+
+Invitation was cancelled by the remote user  because of an error on his/her side: I am already in a Saros session and so cannot accept your invitation.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:35:44.051
+!MESSAGE [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host (Socks5Transport.java:411)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:35:45.194
+!MESSAGE An error occurred while establishing a response connection  (Socks5Transport.java:440)
+!STACK 0
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:35:45.198
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:36:29.232
+!MESSAGE [SOCKS5Transport] could not establish a connection to blop4@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host (Socks5Transport.java:544)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:36:29.403
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:36:59.238
+!MESSAGE failed to connect to blop4@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport (DataTransferManager.java:415)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:24.298
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.actions.RemoveUserAction$2$2@42e64f74, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.actions.RemoveUserAction$2.sessionEnding(RemoveUserAction.java:64)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnding(SarosSessionManager.java:701)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:335)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:24.302
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.concurrent.watchdog.ConsistencyWatchdogServer$2@3292e2c8, UI thread is not available (SWTSynchronizer.java:55)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.synchronize.internal.SWTSynchronizer.exec(SWTSynchronizer.java:56)
+	at de.fu_berlin.inf.dpp.synchronize.internal.SWTSynchronizer.asyncExec(SWTSynchronizer.java:20)
+	at de.fu_berlin.inf.dpp.concurrent.watchdog.ConsistencyWatchdogServer.stop(ConsistencyWatchdogServer.java:145)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:639)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:340)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:24.312
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$3$1@4bd9f94d, UI thread is not available (SWTUtils.java:193)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$3.execute(EditorManager.java:262)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$3.unblock(EditorManager.java:253)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.lockSession(StopManager.java:408)
+	at de.fu_berlin.inf.dpp.synchronize.StopManager.stop(StopManager.java:579)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.doLifecycleMethod(StartableLifecycleStrategy.java:101)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stopComponent(StartableLifecycleStrategy.java:113)
+	at org.picocontainer.lifecycle.StartableLifecycleStrategy.stop(StartableLifecycleStrategy.java:126)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.stop(AbstractInjectionFactory.java:88)
+	at org.picocontainer.behaviors.AbstractBehavior.stop(AbstractBehavior.java:179)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.stop(Stored.java:141)
+	at org.picocontainer.behaviors.Stored.stop(Stored.java:118)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1036)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:791)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:639)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:340)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:24.313
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.editor.EditorManager$5$2@522801c7, UI thread is not available (SWTUtils.java:193)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTSync(SWTUtils.java:194)
+	at de.fu_berlin.inf.dpp.editor.EditorManager$5.sessionEnded(EditorManager.java:358)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:711)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:347)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:24.313
+!MESSAGE could not execute runnable de.fu_berlin.inf.dpp.ui.views.SarosView$11@1df60b6b, UI thread is not available (SWTUtils.java:144)
+!STACK 0
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.views.SarosView.clearNotifications(SarosView.java:695)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.HostLeftAloneInSessionHandler$1.sessionEnded(HostLeftAloneInSessionHandler.java:46)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.sessionEnded(SarosSessionManager.java:711)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:347)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:303)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:748)
+!SESSION Fri Apr 28 16:40:27 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-04-28 16:40:27.822
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-04-28 16:40:27.777 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-28 16:40:28.273
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:47.958
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /10.42.0.118:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:40:57.081
+!MESSAGE [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host (Socks5Transport.java:411)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:41:03.536
+!MESSAGE An error occurred while establishing a response connection  (Socks5Transport.java:440)
+!STACK 0
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:41:03.565
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2017-04-28 16:41:39.066
+!MESSAGE could not establish bytestream connection to blop4@saros-con.imp.fu-berlin.de/Saros (ByteStreamTransport.java:105)
+!STACK 0
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:41:43.142
+!MESSAGE [SOCKS5Transport] could not establish a connection to blop4@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host (Socks5Transport.java:544)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-04-28 16:42:13.145
+!MESSAGE failed to connect to blop4@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport (DataTransferManager.java:415)
+!STACK 0
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+!SESSION Tue May 02 15:15:48 CEST 2017 -----------------------------------------
+!ENTRY org.eclipse.equinox.launcher 4 0 2017-05-02 15:15:48.737
+!MESSAGE Could not find extension: org.eclipse.wst.jsdt.nashorn.extension
+!SESSION 2017-05-02 15:15:48.685 -----------------------------------------------
+eclipse.buildId=4.6.3.v20170306-1705
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2017-05-02 15:15:49.185
+!MESSAGE Bundle org.eclipse.wst.jsdt.nashorn.extension not found.
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2017-05-02 15:16:13.151
+!MESSAGE received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /148.60.132.157:0 (StunServiceImpl.java:420)

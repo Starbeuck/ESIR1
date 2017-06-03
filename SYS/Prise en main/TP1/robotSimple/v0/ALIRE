@@ -1,0 +1,2 @@
+classe ChasseAuTresor	: 
+ - main = application de chasse au trésor ; pas de notion de robot, pas de fonction

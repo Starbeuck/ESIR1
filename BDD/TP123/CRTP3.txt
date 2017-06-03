@@ -1,0 +1,248 @@
+Exercice 1 : Index
+
+1. On devait chercher le code 53772617 qui n'existait pas dans la BDD (ce qui n'est pas normal). Nous avons donc choisi un autre numéro qui existe : le 63087987
+  Nous avons recherché ce numéro 5 fois, comme demandé.
+  Voici ce que nous avons obtenu :
+  Run Time: real 0.169 user 0.142216 sys 0.026176
+  Run Time: real 0.169 user 0.145008 sys 0.024011
+  Run Time: real 0.168 user 0.150394 sys 0.017676
+  Run Time: real 0.169 user 0.150639 sys 0.018082
+  Run Time: real 0.169 user 0.147102 sys 0.022018
+
+
+2. Ensuite, recherche avec un numéro qui n'existe pas 53772617 :
+Run Time: real 0.169 user 0.148501 sys 0.019992
+Run Time: real 0.169 user 0.142488 sys 0.025998
+Run Time: real 0.169 user 0.146166 sys 0.022025
+Run Time: real 0.169 user 0.151744 sys 0.017100
+Run Time: real 0.169 user 0.155429 sys 0.012950
+
+-> temps presque égal dans les deux cas
+
+3. numéro 53772617
+Run Time: real 0.001 user 0.000114 sys 0.000016
+Run Time: real 0.001 user 0.000142 sys 0.000019
+Run Time: real 0.000 user 0.000182 sys 0.000024
+Run Time: real 0.000 user 0.000125 sys 0.000017
+Run Time: real 0.000 user 0.000152 sys 0.000020
+
+
+numéro 53772617 :
+Run Time: real 0.000 user 0.000093 sys 0.000083
+Run Time: real 0.000 user 0.000000 sys 0.000146
+Run Time: real 0.000 user 0.000000 sys 0.000145
+Run Time: real 0.001 user 0.000000 sys 0.000186
+Run Time: real 0.000 user 0.000000 sys 0.000133
+
+On remarque que le temps est bien moindre
+
+Exercice 2 : Comprendre le temps d'exécution d'une requête, optimisation
+- comparaison des requêtes sans les reques SQL
+1. SELECT c.name FROM customer c, facture f WHERE f.customerId=c.customerID AND f.amount>1000;
+    produit cartésien très gourmand en ressources -> une des moins rapides
+2. SELECT name FROM customer WHERE customerId IN (SELECT f.customerId FROM facture f WHERE amount>1000);
+    requête imbriquée  -> une des plus rapides
+3. SELECT name FROM (customer NATURAL JOIN facture) WHERE amount >1000;
+    une des plus rapides : natural join efficace
+4. SELECT name FROM customer WHERE customerId IN (SELECT c.customerId FROM customer c, facture f WHERE c.customerId=f.amount>1000);
+    absence de jointure et présence des IN -> une des moins rapides
+
+cf -> tableau de mesure
+
+On utlise la commande EXPLAIN QUERY et l'option .statsON pour comprendre le schéma d'exécution dans chaque requête
+1. la requête scanne la table facture avant de chercher dans la table customer où faire le produit cartésien à l'aide des index
+  stats :
+  Memory Used:                         2684368 (max 5435520) bytes
+Number of Outstanding Allocations:   2024 (max 3950)
+Number of Pcache Overflow Bytes:     2462128 (max 4929376) bytes
+Number of Scratch Overflow Bytes:    0 (max 1784) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          1784 bytes
+Lookaside Slots Used:                20 (max 76)
+Successful lookaside attempts:       1155
+Lookaside failures due to size:      5000256
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     35
+Page cache misses:                   1710693
+Page cache writes:                   0
+Schema Heap Usage:                   2504 bytes
+Statement Heap/Lookaside Usage:      5384 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000220 sys 0.000000
+
+2. la requête scanne la table customer avant d'exécuter la requête imbriquée, dans laquelle on scanne la table facture
+Memory Used:                         2684376 (max 5435520) bytes
+Number of Outstanding Allocations:   2024 (max 3950)
+Number of Pcache Overflow Bytes:     2462128 (max 4929376) bytes
+Number of Scratch Overflow Bytes:    0 (max 1784) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          1784 bytes
+Lookaside Slots Used:                17 (max 76)
+Successful lookaside attempts:       1203
+Lookaside failures due to size:      5000264
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     0
+Page cache misses:                   0
+Page cache writes:                   0
+Schema Heap Usage:                   2504 bytes
+Statement Heap/Lookaside Usage:      5000 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000100 sys 0.000103
+
+3. la requête scanne la table facture avant de faire les recherches adéquates dans la table client pour faire la natural join
+Memory Used:                         2685368 (max 5435520) bytes
+Number of Outstanding Allocations:   2027 (max 3950)
+Number of Pcache Overflow Bytes:     2462128 (max 4929376) bytes
+Number of Scratch Overflow Bytes:    0 (max 1784) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          1784 bytes
+Lookaside Slots Used:                24 (max 76)
+Successful lookaside attempts:       1279
+Lookaside failures due to size:      5000275
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     0
+Page cache misses:                   0
+Page cache writes:                   0
+Schema Heap Usage:                   2504 bytes
+Statement Heap/Lookaside Usage:      6832 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000121 sys 0.000124
+
+4. la requête scanne la table client avant d'exécuter la requête imbriquée dans laquelle on scanne la table facture avant de faire les recherches adéquates dans la table customer pour faire le produit cartésien
+Memory Used:                         2685368 (max 5435520) bytes
+Number of Outstanding Allocations:   2027 (max 3950)
+Number of Pcache Overflow Bytes:     2462128 (max 4929376) bytes
+Number of Scratch Overflow Bytes:    0 (max 1784) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          1784 bytes
+Lookaside Slots Used:                24 (max 76)
+Successful lookaside attempts:       1355
+Lookaside failures due to size:      5000286
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     0
+Page cache misses:                   0
+Page cache writes:                   0
+Schema Heap Usage:                   2504 bytes
+Statement Heap/Lookaside Usage:      6832 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000113 sys 0.000117
+
+Il s'agit maintenant de définir des index qui pourraient réduire le temps d'exécution de ses requêtes.
+CREATE INDEX custoIDX ON customer(customerId);
+
+On refait le query plan sur les reques possédant des index
+1. On scanne la table facture puis on parcourt la table customer à l'aide de l'index
+Memory Used:                         2684368 (max 2822072) bytes
+Number of Outstanding Allocations:   2032 (max 2048)
+Number of Pcache Overflow Bytes:     2462128 (max 2464176) bytes
+Number of Scratch Overflow Bytes:    0 (max 0) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          0 bytes
+Lookaside Slots Used:                13 (max 76)
+Successful lookaside attempts:       559
+Lookaside failures due to size:      146
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     4000007
+Page cache misses:                   280296
+Page cache writes:                   0
+Schema Heap Usage:                   2880 bytes
+Statement Heap/Lookaside Usage:      4280 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.001 user 0.000165 sys 0.000038
+
+2. on scanne la table customer avec l'index, avant d'exécuter la requête imbriquée et de parcourir la table de facture f
+Memory Used:                         2684896 (max 2822072) bytes
+Number of Outstanding Allocations:   2032 (max 2048)
+Number of Pcache Overflow Bytes:     2462128 (max 2464176) bytes
+Number of Scratch Overflow Bytes:    0 (max 0) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          0 bytes
+Lookaside Slots Used:                16 (max 76)
+Successful lookaside attempts:       617
+Lookaside failures due to size:      152
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     0
+Page cache misses:                   0
+Page cache writes:                   0
+Schema Heap Usage:                   2880 bytes
+Statement Heap/Lookaside Usage:      5128 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000236 sys 0.000000
+
+3. On parcourt la table facture avant de faire de même avec la table customer à l'aide de l'index
+Memory Used:                         2684368 (max 2822072) bytes
+Number of Outstanding Allocations:   2032 (max 2048)
+Number of Pcache Overflow Bytes:     2462128 (max 2464176) bytes
+Number of Scratch Overflow Bytes:    0 (max 0) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          0 bytes
+Lookaside Slots Used:                13 (max 76)
+Successful lookaside attempts:       706
+Lookaside failures due to size:      171
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     0
+Page cache misses:                   0
+Page cache writes:                   0
+Schema Heap Usage:                   2880 bytes
+Statement Heap/Lookaside Usage:      4280 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000159 sys 0.000039
+
+4. On parcout la table customer à l'aide de l'index, avant d'exécuter la requête imbriquée, dans laquelle on parcourt la table f où on parcourt de nouveau la table customer avec son index
+Memory Used:                         2685896 (max 2822072) bytes
+Number of Outstanding Allocations:   2035 (max 2048)
+Number of Pcache Overflow Bytes:     2462128 (max 2464176) bytes
+Number of Scratch Overflow Bytes:    0 (max 0) bytes
+Largest Allocation:                  129600 bytes
+Largest Pcache Allocation:           1296 bytes
+Largest Scratch Allocation:          0 bytes
+Lookaside Slots Used:                18 (max 76)
+Successful lookaside attempts:       780
+Lookaside failures due to size:      181
+Lookaside failures due to OOM:       0
+Pager Heap Usage:                    2560536 bytes
+Page cache hits:                     0
+Page cache misses:                   0
+Page cache writes:                   0
+Schema Heap Usage:                   2880 bytes
+Statement Heap/Lookaside Usage:      6320 bytes
+Fullscan Steps:                      0
+Sort Operations:                     0
+Autoindex Inserts:                   0
+Virtual Machine Steps:               0
+Run Time: real 0.000 user 0.000182 sys 0.000045

@@ -1,0 +1,16 @@
+INDEX VERSION 1.127+/private/student/7/27/15001727/alcc/tp3/.metadata/.plugins/org.eclipse.jdt.core
+49327546.index
+3660477940.index
+307087448.index
+4088062582.index
+2184674227.index
+293735021.index
+2234044943.index
+1618365061.index
+2045957156.index
+586072603.index
+629204234.index
+3540664975.index
+3554844748.index
+3487376985.index
+3652839399.index

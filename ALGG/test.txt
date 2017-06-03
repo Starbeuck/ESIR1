@@ -1,0 +1,22 @@
+# etape 0
+initialisation_ressources(["r1","r2","r3"],G)
+# etape 1
+creation_processus("p1",G)
+# etape 2
+demande_ressource("p1", ["r1","r3"],G)
+
+creation_processus("p2",G)
+
+demande_ressource("p2", ["r2"],G)
+
+creation_processus("p3",G)
+
+creation_processus("p4",G)
+
+demande_ressource("p3", ["r2"],G)
+
+demande_ressource("p1", ["r2"],G)
+
+demande_ressource("p4", ["r2"],G)
+
+destruction_processus ("p1",G)

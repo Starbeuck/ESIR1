@@ -1,0 +1,236 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Label;
+import java.awt.TextArea;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.swing.Box;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+import com.mysql.jdbc.PreparedStatement;
+
+public class Fenetre extends JFrame implements ActionListener{
+
+	//variable pour le serveur et la bdd
+	//connexion au serveur
+	final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+	final String DB_URL = "jdbc:mysql://mysql.istic.univ-rennes1.fr:3306/base_15001727";
+
+	//  Database credentials
+	final String USER = "user_15001727";
+	final String PASS = "4GQWXxj!";
+
+	Connection conn = null;
+	Statement stmt = null;
+
+	JPanel container = new JPanel();
+	JLabel img = new JLabel(new ImageIcon("index.png"));
+	JButton bouton = new JButton("Connect");
+	JButton bouton2 = new JButton("Disconnect");
+	JButton bouton3 = new JButton("Submit a Query");
+	JButton bouton4 = new JButton("Insert in Database");
+	TextField etat = new TextField(100);
+	TextField z1 = new TextField(90);
+	TextField z2 = new TextField(90);
+	TextField z3 = new TextField(90);
+	TextArea res = new TextArea(10,90);
+	JFrame fenetre = new JFrame();
+
+	public Fenetre(){
+
+		fenetre.setTitle("Emploi du temps de l'ESIR");
+		fenetre.setSize(900, 600);
+		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		fenetre.setLocationRelativeTo(null);
+		fenetre.setVisible(true);
+		fenetre.setResizable(false);
+
+		//ajout des boutons
+		container.add(bouton);
+		container.add(bouton2);
+		container.add(bouton3);
+		container.add(bouton4);
+
+		//ajout des actions relatives aux boutons
+		bouton.addActionListener(this);
+		bouton2.addActionListener(this);
+		bouton3.addActionListener(this);
+		bouton4.addActionListener(this);
+
+		//ajout de la barre d'affichage du statut
+		etat.setEditable(false);
+		container.add(etat);
+		etat.setText("Ready to serve.");
+
+		//ajout de la zone d'insertion
+		Label text = new Label("Input fields, please write here before continue :");
+		container.add(text);
+
+		container.add(z1);
+		container.add(z2);
+		container.add(z3);
+		z1.setText("Please enter here a name !");
+		z2.setText("Please enter here an age");
+		z3.setText("Please enter here color of the eyes");
+
+		//ajout de la zone de résultat
+		Label temp = new Label("Result of your query (if you have submit one)");
+		container.add(temp);
+		container.add(res);
+
+		//ajout de l'image
+		container.add(img);
+		fenetre.setContentPane(container);
+
+
+	}
+
+	//action à faire au clic des boutons
+	public void actionPerformed(ActionEvent event)
+	{
+
+		// Extract the relevant information from the action (i.e. which button is pressed?)
+		Object cause = event.getSource();
+
+		// Act depending on the user action
+		// Button CONNECT
+		if (cause == bouton){connectToDatabase();}
+
+		// Button DISCONNECT
+		if (cause == bouton2){disconnectFromDatabase();}
+
+		//Button QUERY
+		if (cause == bouton3){queryDatabase();}
+
+		//Button INSERT
+		if (cause == bouton4){insertDatabase();}
+	}
+
+	/**
+	 * Procedure, where the database connection should be implemented. 
+	 */
+	private void connectToDatabase(){
+		try{
+
+			//STEP 2: Register JDBC driver
+			Class.forName("com.mysql.jdbc.Driver");
+
+			//STEP 3: Open a connection
+			System.out.println("Connecting to database... Ok !");
+			conn = DriverManager.getConnection(DB_URL,USER,PASS);
+
+			etat.setText("Connected to the database");
+		} catch(Exception e){
+			System.err.println(e.getMessage());
+			etat.setText("Connection failed");
+		}
+	}
+
+	/**
+	 * Procedure, where the database connection should be implemented. 
+	 */
+	private void disconnectFromDatabase(){
+		try{
+			if(conn!=null) {
+				conn.close();
+				System.out.println("Disconnected from the database... Ok ! ");
+				etat.setText("Disconnected from the database");
+			}else if(conn==null){
+				System.out.println("Already disconnected");
+				etat.setText("Already disconnected");
+			}
+		} catch(Exception e){
+			System.err.println(e.getMessage());
+			etat.setText("Disconnection failed");
+		}
+	}
+
+	/**
+	 * Execute a query and display the results. Implement the database querying and the 
+	 * display of the results here 
+	 */
+	private void queryDatabase(){
+		etat.setText("Querying the database");
+
+		try{
+
+			//preparation de la requête
+			stmt = conn.createStatement();
+			String query;
+			query = "SELECT * FROM Employees";
+			System.out.print(query);
+			res.setText("");
+			
+			//on se prépare à recevoir un résultat
+			ResultSet result = stmt.executeQuery(query);
+
+			//tant qu'on est pas à la fin de la BDD
+			while(result.next()){
+				String name = result.getString("name");
+				String age = result.getString("age");
+				String couleur = result.getString("couleur");
+				
+				//affichage
+				res.append(name + " a pour age " + age + " ans et à les yeux "+ couleur+"\n");
+			}
+			
+			//on ferme la requete
+			stmt.close();
+			result.close();
+		}
+		catch(Exception e){
+			res.setText("Doesn't exist in the database");
+			System.out.println("Requête refusée");
+		}
+
+
+	}
+
+	/**
+	 * Insert tuples to the database. 
+	 */
+	private void insertDatabase(){
+		try{	
+			String name = z1.getText();
+			String age = z2.getText();
+			String color = z3.getText();
+			etat.setText("Inserting --( " + name + ", " + age + ", " + color + " )-- to the database");
+
+			System.out.println("Creating statement...");
+			stmt = conn.createStatement();
+
+			//on cree la requete
+			String sql;
+			sql = "INSERT INTO base_15001727.Employees VALUES ("+name+", "+age+", "+color+")";
+
+
+			stmt.executeUpdate(sql);
+			etat.setText("Insert successful !");
+			
+
+		} catch(Exception e){
+			System.err.println(e.getMessage());
+			etat.setText("Insertion failed");
+		}
+
+	}
+
+	public static void main(String[] args){
+		new Fenetre();
+	}
+
+}

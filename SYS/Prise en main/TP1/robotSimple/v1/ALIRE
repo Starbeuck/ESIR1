@@ -1,0 +1,3 @@
+classe Robot		: attributs publics, constructeur
+classe OperationsRobot	: opérations = fonctions paramétrées par un robot
+classe ChasseAuTresor	: utilisation du robot pour une application donnée

@@ -1,0 +1,248 @@
+SED(1)                                Manuel de l'utilisateur Linux                               SED(1)
+
+
+
+[1mNOM[0m
+       sed - Éditeur de flux pour le filtrage et la transformation de texte
+
+[1mSYNOPSIS[0m
+       [1msed [22m[[4mOPTION[24m]... [4m{script-seulement-si-pas-d-autre-script}[24m [[4mfichier-d-entrée[24m]...
+
+[1mDESCRIPTION[0m
+       [1msed  [22mest un éditeur de flux. Un éditeur de flux est utilisé pour effectuer des transformations de
+       texte basiques sur un flux d'entrée (un fichier ou l'entrée d'un tube). Alors que d'une  certaine
+       manière  il  est similaire à un éditeur qui permette des éditions scriptées (comme [1med[22m), [1msed [22mfonc‐
+       tionne en seulement une passe sur l'entrée(s) et est, par conséquent, plus efficace.  Mais  c'est
+       sa capacité à filtrer du texte dans un tube qui le distingue des autres éditeurs.
+
+       [1m-n[22m, [1m--quiet[22m, [1m--silent[0m
+
+              Supprimer l'affichage automatique de l'espace de travail.
+
+       [1m-e [22mscript, [1m--expression[22m=[4mscript[0m
+
+              Ajouter le script aux commandes à exécuter.
+
+       [1m-f [22mscript-file, [1m--file[22m=[4mscript-file[0m
+
+              Ajouter le contenu du fichier script aux commandes à exécuter.
+
+       [1m-i[SUFFIX][22m, [1m--in-place[22m[=[4mSUFFIX[24m]
+
+              Éditer le fichier en ligne (faire une sauvegarde si une extension est fournie).
+
+       [1m-l [22mN, [1m--line-length[22m=[4mN[0m
+
+              Spécifier la longueur de coupure désirée pour la commande « l ».
+
+       [1m--posix[0m
+
+              Désactiver toutes les extensions GNU.
+
+       [1m-r[22m, [1m--regexp-extended[0m
+
+              Utiliser les expressions rationnelles dans le script.
+
+       [1m-s[22m, [1m--separate[0m
+
+              Considérer les fichiers séparemment plutôt qu'un unique long flux continu.
+
+       [1m-u[22m, [1m--unbuffered[0m
+
+              Charger  un  minimum  de données des fichiers d'entrée et vider les tampons de sortie plus
+              souvent.
+
+       [1m--help[0m
+              Afficher cette aide et quitter.
+
+       [1m--version[0m
+              Afficher les informations de version et quitter.
+
+       Si aucune des options parmi [1m-e[22m, [1m--expression[22m, [1m-f [22mou [1m--file [22mn'est fournie, le premier argument qui
+       ne  soit pas une option est considéré comme étant le script à interpréter. Si aucun fichier n'est
+       spécifié en entrée, l'entrée standard est lue.
+
+[1mSYNOPSIS DES COMMANDES[0m
+       Il s'agit seulement d'un bref synopsis des commandes de [1msed [22mpour servir d'aide-mémoire à ceux qui
+       connaissent  déjà  [1msed[22m.  Vous devrez consulter d'autres documentations (comme la page texinfo, en
+       anglais) pour avoir une description plus complète.
+
+   [1mCommandes zéro adresse[0m
+       : [4métiquette[0m
+              Étiquette pour les commandes [1mb [22met [1mt[22m.
+
+       #[4mcommentaire[0m
+              Le commentaire va jusqu'au prochain saut de ligne (ou à la fin du fragment de script [1m-e[22m).
+
+       }      L'accolade fermante d'un block { }.
+
+   [1mCommandes zéro ou une adresse[0m
+       =      Afficher le numéro de la ligne courante.
+
+       a \
+
+       [4mtexte[24m  Ajouter [4mtexte[24m, qui a un saut de ligne incorporé précédé par une barre oblique inverse.
+
+       i \
+
+       [4mtext[24m   Insérer [4mtext[24m, qui a un saut de ligne incorporé précédé par une barre oblique inverse.
+
+       q      Quitter immédiatement le script [1msed [22msans traiter plus d'entrées, excepté  que  si  l'affi‐
+              chage automatique n'est pas désactivé, l'espace de travail sera affiché.
+
+       Q      Quitter immédiatement le script [1msed [22msans traiter plus d'entrées.
+
+       r nom_fichier
+              Ajouter le texte lu dans [4mnom_fichier[24m.
+
+       R nom_fichier
+              Ajouter une ligne lue dans [4mnom_fichier[24m.
+
+   [1mCommandes qui acceptent des intervalles d'adresses.[0m
+       {      Débuter un block de commandes (le finir avec }).
+
+       b [4métiquette[0m
+              Sauter à [4métiquette[24m ; si [4métiquette[24m est omise, sauter à la fin du script.
+
+       t [4métiquette[0m
+              Si  une  commande  « s/// »  a réalisé avec succès une substitution depuis que la dernière
+              ligne d'entrée ait été lue et depuis la dernière commande t ou T, sauter à [4métiquette[24m ;  si
+              [4métiquette[24m est omise, sauter à la fin du script.
+
+       T [4métiquette[0m
+              Si  aucune  commande  « s/// » n'a réalisé avec succès une substitution depuis que la der‐
+              nière ligne d'entrée ait été lue et depuis la dernière commande t  ou  T,  sauter  à  [4méti‐[0m
+              [4mquette[24m ; si [4métiquette[24m est omise, sauter à la fin du script.
+
+       c \
+
+       [4mtexte[24m  Remplacer  les lignes sélectionnées par le [4mtexte[24m, qui a un saut de ligne incorporé précédé
+              par une barre oblique inverse.
+
+       d      Effacer l'espace de travail. Démarrer un nouveau cycle.
+
+       D      Effacer l'espace de travail jusqu'au premier saut de ligne incorporé. Démarrer un  nouveau
+              cycle mais sauter la lecture de l'entrée s'il y a encore des données dans l'espace de tra‐
+              vail.
+
+       h H    Copier/ajouter l'espace de travail à l'espace intermédiaire.
+
+       g G    Copier/ajouter l'espace intermédiaire à l'espace de travail.
+
+       x      Échanger le contenu des espaces de travail et intermédiaire.
+
+       l      Afficher la ligne courante sous une forme « visuellement non ambigüe ».
+
+       n N    Lire/ajouter la ligne suivante de l'entrée dans l'espace de travail.
+
+       p      Afficher l'espace de travail courant.
+
+       P      Afficher l'espace de travail courant jusqu'au premier saut de ligne incorporé.
+
+       s/[4mregexp[24m/[4mremplacement[24m/
+              Tenter de faire correspondre [4mregexp[24m à l'espace de travail. Si cela réussit, remplacer avec
+              [4mreplacement[24m  la portion qui correspond. Le [4mremplacement[24m peut contenir le caractère spécial
+              [1m& [22mpour faire référence à cette portion de l'espace de travail qui  correspondait,  et  les
+              caractères spéciaux de \1 à \9 pour faire référence aux sous-expressions, mises en corres‐
+              pondance avec [4mregexp[24m, correspondantes.
+
+       w [4mnom_fichier[0m
+              Écrire le contenu de l'espace de travail dans [4mnom_fichier[24m.
+
+       W [4mnom_fichier[0m
+              Écrire la première ligne de l'espace de travail courant dans [4mnom_fichier[24m.
+
+       y/[4msource[24m/[4mdest[24m/
+              Translitérer les caractères de l'espace de travail qui apparaissent dans  [4msource[24m  en  leur
+              caractère correspondant dans [4mdest[24m.
+
+[1mAdresses[0m
+       Les  commandes  [1msed [22mpeuvent être fournies sans adresse, auquel cas la commande sera exécutée pour
+       toutes les lignes de l'entrée ; avec une adresse, auquel cas la commande  ne  sera  exécutée  que
+       pour les lignes de l'entrée qui correspondent à cette adresse ; ou avec deux adresses, auquel cas
+       la commande ne sera exécutée que pour les lignes appartenant à l'intervalle inclusif  débutant  à
+       la  première  adresse  et  finissant à la seconde. Il faut noter trois choses à propos des inter‐
+       valles d'adresses : la syntaxe est [4maddr1[24m,[4maddr2[24m (c'est-à-dire que les adresses sont  séparées  par
+       une  virgule);  la ligne qui correspond à [4maddr1[24m sera toujours acceptée, même si [4maddr2[24m sélectionne
+       une ligne précédente ; et si [4maddr2[24m est une [4mregexp[24m (expression rationnelle), elle ne sera pas tes‐
+       tée sur la ligne qui correspond à [4maddr1[24m.
+
+       Après  l'adresse (ou intervalle d'adresse) et avant la commande, un [1m! [22mpeut être inséré qui spéci‐
+       fie que la commande ne sera exécutée que si l'adresse (ou  intervalle  d'adresse)  [1mne  [22mcorrespond
+       [1mpas[22m.
+
+       Les types d'adresse suivants sont supportés :
+
+       [4mnombre[24m Faire correspondre seulement la ligne [4mnombre[24m.
+
+       [4mpremier[24m~[4mpas[0m
+              Faire  correspondre  chaque  [4mpas[24m-ième ligne en commençant à la ligne [4mpremier[24m. Par exemple,
+              « sed -n 1~2p » affichera toutes les lignes impaires du flux  d'entrée,  et  les  adresses
+              « 2~5 »  feront  correspondre chaque cinquième ligne en commençant à la seconde. (Ceci est
+              une extension).
+
+       $      Faire correspondre la dernière ligne.
+
+       /[4mregexp[24m/
+              Faire correspondre les lignes qui correspondent à l'expression rationnelle [4mregexp[24m.
+
+       \[1mc[4m[22mregexp[24m[1mc[0m
+              Faire correspondre les lignes qui correspondent à l'expression rationnelle  [4mregexp[24m.  Le  [1mc[0m
+              peut être n'importe quel caractère.
+
+       [1msed [22mGNU supporte également des formes « deux adresses » particulières :
+
+       0,[4maddr2[0m
+              Démarrer  dans  l'état « la première adresse correspond », jusqu'à ce que [4maddr2[24m soit trou‐
+              vée. Ceci est similaire à 1,[4maddr2[24m, excepté que si [4maddr2[24m correspond  à  la  toute  première
+              ligne  de  l'entrée,  la forme 0,[4maddr2[24m sera à la fin de cet intervalle, alors que la forme
+              1,[4maddr2[24m sera encore au début de cet intervalle.
+
+       [4maddr1[24m,+[4mN[0m
+              Correspondra à [4maddr1[24m et aux [4mN[24m lignes suivant [4maddr1[24m.
+
+       [4maddr1[24m,~[4mN[0m
+              Correspondra à [4maddr1[24m et aux lignes suivant [4maddr1[24m jusqu'à qu'à la prochaine ligne  dont  le
+              numéro est un multiple de [4mN[24m.
+
+[1mEXPRESSIONS RATIONNELLES[0m
+       Les expressions rationnelles POSIX.2 [4mdevraient[24m être supportées, mais elles ne le sont pas complè‐
+       tement à cause de problème de performance. La séquence [1m\n [22mdans une expression rationnelle corres‐
+       pond au caractère saut de ligne, il en est de même pour [1m\a[22m, [1m\t[22m, et d'autres séquences.
+
+[1mBOGUES[0m
+       Envoyez  les  rapports  de  bogues  (en  anglais)  par  courriel  à [1mbonzini@gnu.org[22m. Assurez-vous
+       d'inclure le mot « sed » quelque part dans le « Sujet : ». Merci d'inclure également la sortie de
+       la commande « sed --version » dans le corps de votre rapport.
+
+[1mCOPYRIGHT[0m
+       Copyright © 2003 Free Software Foundation, Inc.
+       This  is free software; see the source for copying conditions. There is NO warranty; not even for
+       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE, to the extent permitted by law.
+
+[1mVOIR AUSSI[0m
+       [1mawk[22m(1), [1med[22m(1), [1mgrep[22m(1), [1mtr[22m(1), [1mperlre[22m(1)
+       sed.info
+       différents livres sur [1msed[0m
+       la FAQ [1msed [22men anglais (http://sed.sf.net/grabbag/tutorials/sedfaq.txt), http://sed.sf.net/grab‐
+       bag/.
+
+       La documentation complète de [1msed [22mest maintenue en anglais au format manuel Texinfo. Si les pro‐
+       grammes [1minfo [22met [1msed [22msont correctement installés sur votre machine, la commande
+
+              [1minfo sed[0m
+
+       vous donnera accès au manuel complet.
+
+[1mTRADUCTION[0m
+       Ce document est une traduction réalisée par Alain Portal <aportal AT univ-montp2 DOT fr> le
+       3 juillet 2006 et révisée le 19 novembre 2007.
+
+       L'équipe de traduction a fait le maximum pour réaliser une adaptation française de qualité. La
+       version anglaise la plus à jour de ce document est toujours consultable via la commande :
+       « [1mLANG=C man 1 sed [22m». N'hésitez pas à signaler à l'auteur ou au traducteur, selon le cas, toute
+       erreur dans cette page de manuel.
+
+
+
+sed-4.1.5                                     Février 2006                                        SED(1)

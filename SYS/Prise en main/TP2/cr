@@ -1,0 +1,4 @@
+javac -sourcepath /share/esir1/sys/runtest/src -classpath /share/esir1/prog/bibliotheques/types.jar:/share/esir1/prog/bibliotheques/outilsArbre.jar:/share/esir1/sys/lib/abin.jar -d . /share/esir1/sys/runtest/src/main/mainAbin.jar
+
+
+java -enableassertions -classpath ./:/share/esir1/prog/bibliotheques/types.jar:/share/esir1/prog/bibliotheques/outilsArbre.jar:/share/esir1/sys/lib/abin.jar main/mainAbin
